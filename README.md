@@ -30,6 +30,11 @@ This almanac covers the full AI infrastructure stack — everything that sits be
 | Architecture diagrams + stack layers | `architecture.md` |
 | Benchmark results (rolling) | `benchmarks/` |
 | How tools are tested and ranked | `methodology/benchmark-harness.md` |
+| **Project intent, philosophy & design principles** | **`INTENT.md`** |
+| **Implementation guide, how to add tools, data pipeline** | **`IMPLEMENTATION.md`** |
+| **Testing methodology, benchmarks, scoring, reproducibility** | **`TESTING.md`** |
+| **Troubleshooting, debugging, FAQ** | **`TROUBLESHOOTING.md`** |
+| **How to contribute, challenge rankings, fix data** | **`CONTRIBUTING.md`** |
 
 ## The roster at a glance (June 2026)
 
