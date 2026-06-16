@@ -1,0 +1,7 @@
+# AI Infrastructure Almanac — generated files
+*.log
+.DS_Store
+node_modules/
+__pycache__/
+.env
+.env.*

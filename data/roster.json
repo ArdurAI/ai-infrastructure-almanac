@@ -1,0 +1,4050 @@
+{
+  "meta": {
+    "name": "AI Infrastructure Almanac Roster",
+    "version": "2026-06",
+    "generated_at": "2026-06-16T16:53:00-05:00",
+    "total_tools": 547,
+    "categories": 8,
+    "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents"
+  },
+  "categories": {
+    "code-editors": {
+      "name": "Code Editors & IDE Assistants",
+      "description": "AI-native IDEs, IDE assistants, terminal coding agents, code review tools",
+      "estimated_total": 70,
+      "tools": [
+        {
+          "name": "Cursor",
+          "type": "AI-native IDE",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "A",
+          "notes": "VS Code fork; market leader; $20-200/mo"
+        },
+        {
+          "name": "GitHub Copilot",
+          "type": "IDE assistant",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "A",
+          "notes": "Widest adoption; usage-based credits from June 2026"
+        },
+        {
+          "name": "Claude Code",
+          "type": "CLI agent",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "A",
+          "notes": "~$2.5B ARR; 1M context; Agent Teams; SWE-bench 82%"
+        },
+        {
+          "name": "Windsurf",
+          "type": "AI-native IDE",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "A",
+          "notes": "Formerly Codeium; acquired by Cognition Dec 2025"
+        },
+        {
+          "name": "OpenCode",
+          "type": "Terminal TUI",
+          "license": "MIT",
+          "region": "Global",
+          "tier": "A",
+          "notes": "150K+ stars; 75+ LLM providers; Go-based"
+        },
+        {
+          "name": "Cline",
+          "type": "VS Code + CLI",
+          "license": "Apache-2.0",
+          "region": "Global",
+          "tier": "A",
+          "notes": "5M+ installs; native subagents; BYOK; browser automation"
+        },
+        {
+          "name": "Aider",
+          "type": "Terminal pair-programmer",
+          "license": "MIT",
+          "region": "Global",
+          "tier": "A",
+          "notes": "42K+ stars; Git-aware diffs; model-agnostic"
+        },
+        {
+          "name": "Continue",
+          "type": "IDE extension",
+          "license": "Apache-2.0",
+          "region": "Global",
+          "tier": "A",
+          "notes": "20K+ stars; BYOK; code review; CI-enforceable checks"
+        },
+        {
+          "name": "Zed",
+          "type": "Rust-native editor",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "A",
+          "notes": "Multi-provider chat; real-time collab; GPU-accelerated"
+        },
+        {
+          "name": "Trae",
+          "type": "AI IDE",
+          "license": "Proprietary",
+          "region": "China",
+          "tier": "A",
+          "notes": "ByteDance; free; VS Code fork; 95% WeChat SDK accuracy"
+        },
+        {
+          "name": "Tabnine",
+          "type": "Completion + chat",
+          "license": "Proprietary",
+          "region": "Israel/US",
+          "tier": "A",
+          "notes": "1M+ devs; on-prem; zero data retention; SOC 2/GDPR"
+        },
+        {
+          "name": "Codex CLI",
+          "type": "CLI agent",
+          "license": "Apache-2.0",
+          "region": "US",
+          "tier": "A",
+          "notes": "OpenAI; Rust-native; 240+ tok/s; included in ChatGPT"
+        },
+        {
+          "name": "Gemini CLI",
+          "type": "CLI agent",
+          "license": "Apache-2.0",
+          "region": "US",
+          "tier": "A",
+          "notes": "1M token context; 1,000 req/day free; full open source"
+        },
+        {
+          "name": "Kimi CLI",
+          "type": "Terminal agent",
+          "license": "Open source",
+          "region": "China",
+          "tier": "A",
+          "notes": "Moonshot; Agent Swarm up to 300 sub-agents; K2.6"
+        },
+        {
+          "name": "Devin",
+          "type": "Autonomous SWE",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "A",
+          "notes": "Cognition; full VM; Slack-native; $20/mo entry + ACUs"
+        },
+        {
+          "name": "OpenHands",
+          "type": "Autonomous agent",
+          "license": "MIT",
+          "region": "Global",
+          "tier": "A",
+          "notes": "70K+ stars; formerly OpenDevin; Docker sandboxed"
+        },
+        {
+          "name": "CodeRabbit",
+          "type": "AI code review",
+          "license": "Proprietary",
+          "region": "Global",
+          "tier": "A",
+          "notes": "$550M valuation; 8,000+ customers; line-by-line feedback"
+        },
+        {
+          "name": "Supermaven",
+          "type": "Completion engine",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "B",
+          "notes": "Acquired by Cursor; fast long-context completions"
+        },
+        {
+          "name": "Cody",
+          "type": "Codebase assistant",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "B",
+          "notes": "Sourcegraph; large codebase context; $9-19/mo"
+        },
+        {
+          "name": "Amazon Q Developer",
+          "type": "IDE + CLI",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "B",
+          "notes": "AWS ecosystem; formerly CodeWhisperer; 60 free tasks/mo"
+        },
+        {
+          "name": "JetBrains Junie",
+          "type": "IDE agent",
+          "license": "Proprietary",
+          "region": "Czechia",
+          "tier": "B",
+          "notes": "Multi-agent support; BYOK; AI Pro $10/mo"
+        },
+        {
+          "name": "Replit Agent",
+          "type": "Cloud app builder",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "B",
+          "notes": "Full-stack from prompt; deploy in one click; $20-90/mo"
+        },
+        {
+          "name": "Kilo Code",
+          "type": "Multi-platform agent",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "B",
+          "notes": "500+ models; Architect/Code/Debug modes"
+        },
+        {
+          "name": "Roo Code",
+          "type": "VS Code extension",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "B",
+          "notes": "Cline fork; multi-mode agent loop; community-driven"
+        },
+        {
+          "name": "Tabby",
+          "type": "Self-hosted completion",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "B",
+          "notes": "Kubernetes deploy; server-side index; RAG; StarCoder"
+        },
+        {
+          "name": "通义灵码",
+          "type": "IDE plugin",
+          "license": "Proprietary",
+          "region": "China",
+          "tier": "B",
+          "notes": "Alibaba; database-aware; 200+ languages; Aliyun SDK"
+        },
+        {
+          "name": "文心快码",
+          "type": "IDE plugin",
+          "license": "Proprietary",
+          "region": "China",
+          "tier": "B",
+          "notes": "Baidu; 100+ languages; 若依 framework expert; free"
+        },
+        {
+          "name": "豆包 MarsCode",
+          "type": "IDE + cloud IDE",
+          "license": "Proprietary",
+          "region": "China",
+          "tier": "B",
+          "notes": "ByteDance; 100+ languages; project-aware; cloud dev env"
+        },
+        {
+          "name": "腾讯云AI代码助手",
+          "type": "IDE plugin",
+          "license": "Proprietary",
+          "region": "China",
+          "tier": "B",
+          "notes": "Tencent; 50%+ internal usage; hybrid model"
+        },
+        {
+          "name": "Bolt.new",
+          "type": "Browser-based builder",
+          "license": "Proprietary",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Web IDE; minimal setup; not production-ready for complex apps"
+        },
+        {
+          "name": "Lovable",
+          "type": "Web app builder",
+          "license": "Proprietary",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Full-stack web apps; database + payments; exports standard code"
+        },
+        {
+          "name": "v0 (Vercel)",
+          "type": "UI generator",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "C",
+          "notes": "React components from prompts; shadcn/ui integration"
+        },
+        {
+          "name": "Appy Pie",
+          "type": "No-code app builder",
+          "license": "Proprietary",
+          "region": "India",
+          "tier": "C",
+          "notes": "Native Android/iOS; drag-drop; $16/mo; 100K+ apps"
+        },
+        {
+          "name": "Qwen Code CLI",
+          "type": "Terminal agent",
+          "license": "Open source",
+          "region": "China",
+          "tier": "C",
+          "notes": "Alibaba; multi-provider; Alibaba Cloud Coding Plan"
+        },
+        {
+          "name": "Grok Build",
+          "type": "CLI agent",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "C",
+          "notes": "xAI's official Grok-powered CLI"
+        },
+        {
+          "name": "Hermes Agent",
+          "type": "Self-improving harness",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Nous Research; 64K stars; persistent memory; auto skill docs"
+        },
+        {
+          "name": "OpenClaw",
+          "type": "Agent runtime",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "369K stars; channel-agnostic; 3.2M users; sub-agent orchestration"
+        },
+        {
+          "name": "Qodo (CodiumAI)",
+          "type": "PR review + tests",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Auto-description; auto-review; test generation; $19/mo hosted"
+        },
+        {
+          "name": "Snyk",
+          "type": "Security + AI Trust",
+          "license": "Proprietary",
+          "region": "UK/US",
+          "tier": "C",
+          "notes": "DeepCode AI; AI Trust Platform; dependency + agentic security"
+        },
+        {
+          "name": "Aikido Security",
+          "type": "SAST + SCA + IaC",
+          "license": "Proprietary",
+          "region": "EU",
+          "tier": "C",
+          "notes": "AI-generated code security; auto-PR fixes; runtime protection"
+        },
+        {
+          "name": "Corridor.dev",
+          "type": "Real-time security",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "C",
+          "notes": "MCP server; Cursor/Claude/Copilot integration; pre-generation guardrails"
+        },
+        {
+          "name": "Axiomstudio.ai VibeFlow",
+          "type": "Enterprise governance",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "C",
+          "notes": "Compliance tagging; Jira sync; auto code review; CISO target"
+        },
+        {
+          "name": "Quality Clouds",
+          "type": "SaaS AI governance",
+          "license": "Proprietary",
+          "region": "EU",
+          "tier": "C",
+          "notes": "ServiceNow/Salesforce/Dynamics + AI-native; AI Rule Builder"
+        },
+        {
+          "name": "Bito",
+          "type": "AI code review",
+          "license": "Proprietary",
+          "region": "Global",
+          "tier": "C",
+          "notes": "35% demand surge; PR analysis; context-aware"
+        },
+        {
+          "name": "Refraction",
+          "type": "Code generation",
+          "license": "Proprietary",
+          "region": "Global",
+          "tier": "C",
+          "notes": "56 languages; tests, docs, CI/CD; 4/5 rating"
+        },
+        {
+          "name": "Write-the",
+          "type": "Docs + tests",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Python-focused; GPT-based; mkdocs; pytest"
+        },
+        {
+          "name": "Deep Code Review (Augment)",
+          "type": "Cross-service review",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "C",
+          "notes": "450K-file monorepo; Context Engine; 400K+ file semantic understanding"
+        },
+        {
+          "name": "Animus (ao-cli)",
+          "type": "Agent orchestrator",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "YAML workflows; daemon scheduling; multi-model routing"
+        },
+        {
+          "name": "ntm",
+          "type": "Multi-agent terminal",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "tmux multi-agent center; broadcast prompts; conflict tracking"
+        },
+        {
+          "name": "cmux",
+          "type": "Native macOS terminal",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "libghostty-based; vertical tabs; scriptable browser; agent management"
+        },
+        {
+          "name": "vibecode CLI",
+          "type": "Multi-agent execution",
+          "license": "Paid",
+          "region": "Global",
+          "tier": "C",
+          "notes": "30+ pre-authenticated APIs; sandboxing; DB + auth"
+        },
+        {
+          "name": "Droid",
+          "type": "Terminal agent",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "C",
+          "notes": "Factory AI; terminal bench leader; Docker log reading; free trial"
+        },
+        {
+          "name": "Autohand Code CLI",
+          "type": "Terminal agent",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Multi-provider; modular skills; Git integration; cross-platform"
+        },
+        {
+          "name": "Goose",
+          "type": "Terminal agent",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Formerly Block; free/BYOK"
+        },
+        {
+          "name": "Warp",
+          "type": "Terminal + cloud agent",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "C",
+          "notes": "Up to 4 concurrent cloud agents; cloud execution"
+        },
+        {
+          "name": "Athas",
+          "type": "Open editor",
+          "license": "Open source",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Vim keybindings; LSP; agentic editing; multi-model"
+        },
+        {
+          "name": "Amp",
+          "type": "Frontier CLI agent",
+          "license": "Pay-as-you-go",
+          "region": "Global",
+          "tier": "C",
+          "notes": "No markup for individuals; advanced model access"
+        },
+        {
+          "name": "CodeBuddy",
+          "type": "Full-role collaboration",
+          "license": "Proprietary",
+          "region": "China",
+          "tier": "C",
+          "notes": "Huawei; multi-role team collaboration; full lifecycle"
+        },
+        {
+          "name": "Firebase Studio",
+          "type": "Cloud dev environment",
+          "license": "Proprietary",
+          "region": "US",
+          "tier": "C",
+          "notes": "Google; agentic; build/test/deploy/run; cloud-based"
+        },
+        {
+          "name": "Rocket.new",
+          "type": "Vibe coding platform",
+          "license": "Proprietary",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Natural language to app; step-by-step refinement"
+        },
+        {
+          "name": "Webtwizz",
+          "type": "AI app builder",
+          "license": "Proprietary",
+          "region": "Global",
+          "tier": "C",
+          "notes": "Visual editor + Monaco AI editor; exports clean code"
+        },
+        {
+          "name": "Base44",
+          "type": "Web app builder",
+          "license": "Proprietary",
+          "region": "Global",
+          "tier": "C",
+          "notes": "No-code/low-code; database + auth included"
+        },
+        {
+          "name": "KulaAI",
+          "type": "Model testing platform",
+          "license": "Proprietary",
+          "region": "China",
+          "tier": "C",
+          "notes": "Algorithm benchmarking; model comparison; DeepSeek/Claude/通义千问"
+        }
+      ],
+      "tool_count": 63
+    },
+    "agent-frameworks": {
+      "name": "Agent Frameworks & Orchestration",
+      "description": "Multi-agent orchestration, stateful workflows, role-based crews, protocol implementations",
+      "estimated_total": 100,
+      "tools": [
+        {
+          "name": "LangGraph",
+          "type": "Orchestration",
+          "license": "MIT",
+          "language": "Python, JS",
+          "tier": "A",
+          "notes": "44% prod adoption; graph-based state machines; checkpointing; HITL"
+        },
+        {
+          "name": "CrewAI",
+          "type": "Multi-agent",
+          "license": "MIT",
+          "language": "Python",
+          "tier": "A",
+          "notes": "49.2K+ stars; 63% Fortune 500 claim; role-based crews; MCP support"
+        },
+        {
+          "name": "Mastra",
+          "type": "Framework",
+          "license": "Apache-2.0",
+          "language": "TypeScript",
+          "tier": "A",
+          "notes": "24.6K+ stars; 300K+ weekly npm; TS-native; 3,300+ models, 94 providers"
+        },
+        {
+          "name": "Pydantic AI",
+          "type": "Framework",
+          "license": "Open",
+          "language": "Python",
+          "tier": "A",
+          "notes": "8.4K+ stars; type-safe; DI; FastAPI ergonomics; 5 output modes"
+        },
+        {
+          "name": "Claude Agent SDK",
+          "type": "SDK",
+          "license": "Open SDK",
+          "language": "Python, TS",
+          "tier": "A",
+          "notes": "Fastest-growing; Anthropic-native; MCP; skills; subagents"
+        },
+        {
+          "name": "OpenAI Agents SDK",
+          "type": "SDK",
+          "license": "MIT",
+          "language": "Python",
+          "tier": "A",
+          "notes": "22.2K+ stars; lightweight; explicit handoffs; built-in tracing"
+        },
+        {
+          "name": "Google ADK",
+          "type": "Framework",
+          "license": "Apache-2.0",
+          "language": "Python, TS, Go, Java",
+          "tier": "A",
+          "notes": "15.6K+ stars; hierarchical agent tree; A2A + multimodal; Vertex AI"
+        },
+        {
+          "name": "Microsoft Agent Framework",
+          "type": "Unified SDK",
+          "license": "MIT",
+          "language": "Python, .NET",
+          "tier": "A",
+          "notes": "9.6K+ stars; GA April 2026; merges AutoGen + Semantic Kernel; MCP + A2A native"
+        },
+        {
+          "name": "Agno",
+          "type": "Full-stack",
+          "license": "Apache-2.0",
+          "language": "Python",
+          "tier": "A",
+          "notes": "39.7K+ stars; multi-agent + memory; AgentOS runtime; multimodal"
+        },
+        {
+          "name": "LlamaIndex",
+          "type": "RAG/Agent",
+          "license": "MIT",
+          "language": "Python, TS",
+          "tier": "A",
+          "notes": "40.9K+ stars; data-first; Router Agents; retrieval-centric"
+        },
+        {
+          "name": "LangChain",
+          "type": "Framework",
+          "license": "MIT",
+          "language": "Python, JS",
+          "tier": "A",
+          "notes": "134K+ stars; 1000+ connectors; integration layer; increasingly tooling"
+        },
+        {
+          "name": "Deep Agents",
+          "type": "Agent Harness",
+          "license": "MIT",
+          "language": "Python",
+          "tier": "A",
+          "notes": "LangChain ecosystem; long-running task harness; planning + context mgmt"
+        },
+        {
+          "name": "AutoGen / AG2",
+          "type": "Multi-agent",
+          "license": "MIT",
+          "language": "Python, .NET",
+          "tier": "A",
+          "notes": "43.1K+ stars; AutoGen v0.7 = research; AG2 = community fork; MAF = successor"
+        },
+        {
+          "name": "smolagents",
+          "type": "Minimalist",
+          "license": "Open",
+          "language": "Python",
+          "tier": "A",
+          "notes": "HuggingFace; ~1K LOC core; CodeAgent writes/executes Python; GAIA 44.2%"
+        },
+        {
+          "name": "Haystack",
+          "type": "Pipeline",
+          "license": "Open",
+          "language": "Python",
+          "tier": "A",
+          "notes": "18K+ stars; modular retrievers, routers, evaluators; enterprise doc intelligence"
+        },
+        {
+          "name": "Letta",
+          "type": "Stateful Agent",
+          "license": "Open",
+          "language": "Python, TS",
+          "tier": "A",
+          "notes": "22.3K+ stars; memory-rich agents; state/session management"
+        },
+        {
+          "name": "DSPy",
+          "type": "Programming",
+          "license": "Open",
+          "language": "Python",
+          "tier": "A",
+          "notes": "Stanford; programming (not prompting) LM systems; prompt + weight optimization"
+        },
+        {
+          "name": "Vercel AI SDK",
+          "type": "SDK",
+          "license": "Open",
+          "language": "TS/JS",
+          "tier": "A",
+          "notes": "Low-level primitives; Mastra builds on top; model routing + streaming"
+        },
+        {
+          "name": "Genkit",
+          "type": "Framework",
+          "license": "Open",
+          "language": "Java, TS",
+          "tier": "B",
+          "notes": "Firebase/Google; Dev UI with trace explorer; typed flows; OTEL-compatible"
+        },
+        {
+          "name": "Spring AI",
+          "type": "Framework",
+          "license": "Apache-2.0",
+          "language": "Java",
+          "tier": "B",
+          "notes": "Spring-native; Advisors API; auto-configuration; Actuator observability"
+        },
+        {
+          "name": "LangChain4j",
+          "type": "Framework",
+          "license": "Open",
+          "language": "Java",
+          "tier": "B",
+          "notes": "30+ vector stores; 20+ providers; Quarkus/Micronaut; AI Services pattern"
+        },
+        {
+          "name": "Embabel",
+          "type": "Framework",
+          "license": "Open",
+          "language": "Java/Kotlin",
+          "tier": "B",
+          "notes": "Rod Johnson (Spring creator); GOAP + Utility AI planning; deterministic; beta"
+        },
+        {
+          "name": "Koog",
+          "type": "Framework",
+          "license": "Open",
+          "language": "Kotlin",
+          "tier": "B",
+          "notes": "JetBrains; graph workflows; checkpointing; Kotlin Multiplatform; history compression"
+        },
+        {
+          "name": "AgentScope Java",
+          "type": "Multi-agent",
+          "license": "Open",
+          "language": "Java",
+          "tier": "B",
+          "notes": "Alibaba; native A2A protocol; Hook system for HITL; Qwen-first"
+        },
+        {
+          "name": "Semantic Kernel",
+          "type": "SDK",
+          "license": "MIT",
+          "language": "C#, Python, Java",
+          "tier": "B",
+          "notes": "Pre-MAF; plugin/planner model; .NET enterprise; KPMG/Fujitsu production"
+        },
+        {
+          "name": "Rig",
+          "type": "LLM Lib",
+          "license": "Apache-2.0",
+          "language": "Rust",
+          "tier": "B",
+          "notes": "~5K stars; trait-first; composable; CompletionModel + Tool traits"
+        },
+        {
+          "name": "AutoAgents",
+          "type": "Multi-agent",
+          "license": "MIT",
+          "language": "Rust",
+          "tier": "B",
+          "notes": "~2K stars; Actor model (Ractor); WASM sandbox; derive macros"
+        },
+        {
+          "name": "OpenFANG",
+          "type": "Agent OS",
+          "license": "Apache-2.0",
+          "language": "Rust",
+          "tier": "B",
+          "notes": "~8K stars; 137K LOC; kernel/runtime/memory/channels; RBAC; MCP + A2A"
+        },
+        {
+          "name": "kagent",
+          "type": "Framework",
+          "license": "Open",
+          "language": "Go",
+          "tier": "B",
+          "notes": "Google-backed; Kubernetes-native; 45ms latency"
+        },
+        {
+          "name": "Dify",
+          "type": "Low-code",
+          "license": "Apache-like",
+          "language": "Python",
+          "tier": "A",
+          "notes": "142K+ stars; workflow + RAG + agent; prompt IDE; self-hostable"
+        },
+        {
+          "name": "Flowise",
+          "type": "Low-code",
+          "license": "Apache-2.0",
+          "language": "TS",
+          "tier": "A",
+          "notes": "54.9K+ stars; LangChain DAG on canvas; LangGraph nodes v2.0"
+        },
+        {
+          "name": "n8n",
+          "type": "Automation",
+          "license": "Fair-code",
+          "language": "TS",
+          "tier": "A",
+          "notes": "188K+ stars; 400+ integrations; AI Agent node; fair-code (not OSI)"
+        },
+        {
+          "name": "Coze",
+          "type": "No-code",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "A",
+          "notes": "ByteDance; 100K+ bots; zero-code Bot builder; Doubao model"
+        },
+        {
+          "name": "RAGflow",
+          "type": "RAG Engine",
+          "license": "Open",
+          "language": "Python",
+          "tier": "B",
+          "notes": "80.7K+ stars; deep document understanding; complex PDF/table parsing"
+        },
+        {
+          "name": "Botpress",
+          "type": "Conversational",
+          "license": "Open",
+          "language": "TS",
+          "tier": "B",
+          "notes": "Open-source dialog + LLM; modular; community extensible"
+        },
+        {
+          "name": "Rasa",
+          "type": "Conversational",
+          "license": "Open",
+          "language": "Python",
+          "tier": "B",
+          "notes": "20K+ stars; 25M+ downloads; open-source + Rasa Studio"
+        },
+        {
+          "name": "Voiceflow",
+          "type": "No-code",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "B",
+          "notes": "Visual agent builder; voice + chat; enterprise teams"
+        },
+        {
+          "name": "Relevance AI",
+          "type": "No-code",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "B",
+          "notes": "Drag-and-drop; zero coding; non-technical users"
+        },
+        {
+          "name": "Langflow",
+          "type": "Visual",
+          "license": "Open",
+          "language": "Python",
+          "tier": "B",
+          "notes": "54.9K+ stars; visual LangChain builder; node-based; Git versionable"
+        },
+        {
+          "name": "Salesforce Agentforce",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "A",
+          "notes": "CRM-native; $2/conversation; Atlas Reasoning Engine; multi-agent"
+        },
+        {
+          "name": "ServiceNow Now Assist",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "A",
+          "notes": "ITSM-native; CMDB grounding; orchestrator model"
+        },
+        {
+          "name": "Microsoft Copilot Studio",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "A",
+          "notes": "M365-integrated; low-code; credit model; Power Platform"
+        },
+        {
+          "name": "UiPath Agentic Automation",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "RPA-native; visual orchestration + conversational UI"
+        },
+        {
+          "name": "IBM watsonx Orchestrate",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "AI orchestration; enterprise governance; hybrid cloud"
+        },
+        {
+          "name": "Google Vertex AI Agent Builder",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "A",
+          "notes": "Agent Studio (no-code) + ADK (code); Agent Runtime; BYO-MCP"
+        },
+        {
+          "name": "Adobe AEP Agent Orchestrator",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "Marketing; personalization agents; real-time data"
+        },
+        {
+          "name": "Airia",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "Award 2026; unified security + orchestration + governance"
+        },
+        {
+          "name": "Chapter Enterprise",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "Model-agnostic; SmartGuard; legacy on-premise + SaaS; air-gapped"
+        },
+        {
+          "name": "Domo Agent Catalyst",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "BI-native; governed datasets; multiple LLM choice; HITL"
+        },
+        {
+          "name": "Harness AI Agent Framework",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "SDLC-wide; 30-50% productivity gain; AIDA chat; MCP + AIDA"
+        },
+        {
+          "name": "ArkClaw",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "ByteDance; Volcano Engine; enterprise process automation"
+        },
+        {
+          "name": "MoltBook",
+          "type": "Open Templates",
+          "license": "Apache-2.0",
+          "language": "Open",
+          "tier": "B",
+          "notes": "ByteDance; 15K+ stars; OpenClaw-compatible; Skill library"
+        },
+        {
+          "name": "QwenPaw",
+          "type": "Agent",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "Alibaba; e-commerce/service automation; agent store"
+        },
+        {
+          "name": "JVSClaw",
+          "type": "Low-code",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "C",
+          "notes": "Alibaba; low-code AI agent platform"
+        },
+        {
+          "name": "QoderWork",
+          "type": "Coding Agent",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "C",
+          "notes": "Alibaba; AI programming workflow agent"
+        },
+        {
+          "name": "WorkBuddy",
+          "type": "Enterprise",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "C",
+          "notes": "Tencent; enterprise collaboration AI agent"
+        },
+        {
+          "name": "CodeBuddy",
+          "type": "Coding",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "C",
+          "notes": "Tencent; AI programming assistant (2026 new)"
+        },
+        {
+          "name": "红手指Operator",
+          "type": "Browser Agent",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "C",
+          "notes": "Baidu; browser automation; operator-style task execution"
+        },
+        {
+          "name": "文心智能体平台",
+          "type": "Platform",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "Baidu; 100K+ agents; vertical agents (legal, medical); Wenxin 5.0"
+        },
+        {
+          "name": "智谱 AutoClaw",
+          "type": "Framework",
+          "license": "Open (GLM)",
+          "language": "Python",
+          "tier": "B",
+          "notes": "Zhipu; GLM-4; 256K context; task planning; self-correction"
+        },
+        {
+          "name": "Kimi Claw",
+          "type": "Long-context",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "Moonshot; 2M-character context; legal/academic/financial"
+        },
+        {
+          "name": "AstronClaw",
+          "type": "Voice Agent",
+          "license": "Proprietary",
+          "language": "Edge/Cloud",
+          "tier": "B",
+          "notes": "iFlytek; 98%+ ASR; dialect support; streaming"
+        },
+        {
+          "name": "MaxClaw",
+          "type": "Multi-modal",
+          "license": "Proprietary",
+          "language": "Cloud",
+          "tier": "B",
+          "notes": "MiniMax; MoE architecture; text/voice/video/image"
+        },
+        {
+          "name": "OpenClaw",
+          "type": "Self-hosted",
+          "license": "MIT",
+          "language": "Python",
+          "tier": "B",
+          "notes": "210K+ stars; self-hosted; 50+ native integrations; Docker-first"
+        },
+        {
+          "name": "Hermes Agent Framework",
+          "type": "Framework",
+          "license": "Open",
+          "language": "Python",
+          "tier": "B",
+          "notes": "106K+ stars; Workspace + Mission Control; Obsidian memory; 24/7 scheduled"
+        },
+        {
+          "name": "ROSA",
+          "type": "Robotics",
+          "license": "Open",
+          "language": "Python",
+          "tier": "C",
+          "notes": "ROS-based LLM agent; LangChain + ReAct; JPL NeBula-Spot"
+        },
+        {
+          "name": "RAI",
+          "type": "Robotics",
+          "license": "Open",
+          "language": "Python",
+          "tier": "C",
+          "notes": "Multi-agent embodied; ROS2; perception/planner/controller"
+        },
+        {
+          "name": "BUMBLE",
+          "type": "Robotics",
+          "license": "Open",
+          "language": "Python",
+          "tier": "C",
+          "notes": "Building-wide mobile manipulation; VLM-based; skill library"
+        },
+        {
+          "name": "LeRobot",
+          "type": "Robotics",
+          "license": "Open",
+          "language": "Python",
+          "tier": "C",
+          "notes": "HuggingFace; OpenVLA; 7B open-source; data collection + policy training"
+        },
+        {
+          "name": "TARS",
+          "type": "Embodied AI",
+          "license": "Proprietary",
+          "language": "Hardware",
+          "tier": "C",
+          "notes": "AWE 3.0 foundation model; DexHand; industrial robots"
+        },
+        {
+          "name": "MetaGPT",
+          "type": "Multi-agent",
+          "license": "Open",
+          "language": "Python",
+          "tier": "C",
+          "notes": "Software company simulation; roles: PM/tech-lead/engineer; ICLR 2024 oral"
+        },
+        {
+          "name": "Instructor",
+          "type": "Structured Output",
+          "license": "Open",
+          "language": "Python",
+          "tier": "C",
+          "notes": "11K+ stars; patching LLM clients for guaranteed Pydantic output"
+        },
+        {
+          "name": "Cognosys",
+          "type": "Agent Builder",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "C",
+          "notes": "Web-based agent builder; task automation"
+        },
+        {
+          "name": "OrchestrAI",
+          "type": "AI OS",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "C",
+          "notes": "Non-technical ops; modular capacity; auto-learning from feedback"
+        },
+        {
+          "name": "EchoLeads",
+          "type": "Voice Sales",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "C",
+          "notes": "Startup sales voice AI; 72h deploy; Salesforce/HubSpot"
+        },
+        {
+          "name": "Retell AI",
+          "type": "Voice",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "C",
+          "notes": "Custom voice AI; streaming APIs; technical teams"
+        },
+        {
+          "name": "Bland AI",
+          "type": "Voice",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "C",
+          "notes": "High-volume outbound; webhook CRM"
+        },
+        {
+          "name": "Synthflow",
+          "type": "Voice",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "C",
+          "notes": "No-code voice; 30-min setup; non-technical; $29-450/mo"
+        },
+        {
+          "name": "Vapi",
+          "type": "Voice",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "C",
+          "notes": "Developer API; max customization; engineering-led"
+        },
+        {
+          "name": "SuperAGI",
+          "type": "Autonomous",
+          "license": "Open",
+          "language": "Python",
+          "tier": "C",
+          "notes": "Marketplace of tools/skills; monitoring dashboards; self-improving"
+        },
+        {
+          "name": "Kore.ai",
+          "type": "Conversational",
+          "license": "Proprietary",
+          "language": "SaaS",
+          "tier": "C",
+          "notes": "Healthcare/finance/retail; NLP + automation; HIPAA compliance"
+        },
+        {
+          "name": "Appsmith",
+          "type": "Agent Builder",
+          "license": "Open",
+          "language": "SaaS",
+          "tier": "C",
+          "notes": "Custom AI agents for sales/support/people management"
+        }
+      ],
+      "tool_count": 82
+    },
+    "observability": {
+      "name": "Observability, Logging & Monitoring",
+      "description": "LLM tracing, agent monitoring, cost tracking, GPU monitoring, evaluation platforms",
+      "estimated_total": 80,
+      "tools": [
+        {
+          "name": "LangSmith",
+          "type": "Observability + Evaluation",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "1B+ events/day; ~35% Fortune 500; LangChain native"
+        },
+        {
+          "name": "Langfuse",
+          "type": "LLM Engineering Platform",
+          "license": "MIT (core)",
+          "tier": "A",
+          "notes": "21K+ stars; self-hosted; acquired by ClickHouse Jan 2026"
+        },
+        {
+          "name": "Braintrust",
+          "type": "Eval-first Observability",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "$124M raised; Notion/Stripe/Vercel; CI/CD quality gates"
+        },
+        {
+          "name": "Arize Phoenix",
+          "type": "AI Observability + Evaluation",
+          "license": "Elastic-2.0",
+          "tier": "A",
+          "notes": "2.5M+ monthly downloads; RAG debugging; local-first OTel"
+        },
+        {
+          "name": "Arize AX",
+          "type": "Enterprise AI Monitoring",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Production-scale telemetry; 50+ research-backed eval metrics"
+        },
+        {
+          "name": "Helicone",
+          "type": "LLM Gateway + Observability",
+          "license": "Apache-2.0 (partial)",
+          "tier": "A",
+          "notes": "YC W23; proxy-based; one-line integration; 100+ models"
+        },
+        {
+          "name": "Pydantic Logfire",
+          "type": "AI-native Observability",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "10M free spans/mo; $2/M after; OTel-native; SQL-queryable"
+        },
+        {
+          "name": "Portkey",
+          "type": "AI Gateway + Observability",
+          "license": "Partially open",
+          "tier": "A",
+          "notes": "1T tokens/day; 250+ models; 20-40ms latency; MCP Gateway"
+        },
+        {
+          "name": "OpenLIT",
+          "type": "AI Engineering Platform",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "LLM + GPU + VectorDB observability; 60+ integrations; self-hosted"
+        },
+        {
+          "name": "Datadog LLM Observability",
+          "type": "APM Extension",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Unified infra + LLM tracing; agentless; OTel GenAI support"
+        },
+        {
+          "name": "Weights & Biases Weave",
+          "type": "LLM Tracing + Eval",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "ML + LLM unified; $50/user/mo; auto-instruments major frameworks"
+        },
+        {
+          "name": "TruLens",
+          "type": "RAG Evaluation Framework",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "RAG Triad: groundedness, relevance, correctness; OTel traces"
+        },
+        {
+          "name": "AgentOps",
+          "type": "Agent Observability",
+          "license": "Partially open",
+          "tier": "A",
+          "notes": "Agent session lifecycles; tool calls; replay; CrewAI/AutoGen native"
+        },
+        {
+          "name": "Galileo",
+          "type": "AI Evaluation + Guardrails",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "$68M raised; Luna-2 evaluators; sub-200ms scoring; runtime guardrails"
+        },
+        {
+          "name": "DeepEval",
+          "type": "LLM Evaluation Framework",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "50+ metrics; CI-native; pytest integration; RAG/agent/multi-turn"
+        },
+        {
+          "name": "Ragas",
+          "type": "RAG Evaluation",
+          "license": "Open source",
+          "tier": "A",
+          "notes": "Faithfulness, context precision/recall; research-backed; pairs with Phoenix"
+        },
+        {
+          "name": "Promptfoo",
+          "type": "Eval + Red Teaming",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "YAML-based assertions; 50+ vulnerability types; GitHub Actions; always free OSS"
+        },
+        {
+          "name": "Fiddler",
+          "type": "AI Governance + Monitoring",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "$100M raised; explainability, bias, compliance; ML+LLM unified"
+        },
+        {
+          "name": "Arthur AI",
+          "type": "Model Performance + Governance",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "$60M raised; risk, bias, drift; compliance dashboards"
+        },
+        {
+          "name": "LiteLLM",
+          "type": "LLM Gateway + Proxy",
+          "license": "Open source",
+          "tier": "A",
+          "notes": "18K+ stars; 100+ LLM APIs in OpenAI format; YC W23"
+        },
+        {
+          "name": "Lunary",
+          "type": "LLM Analytics + Observability",
+          "license": "Open source / SaaS",
+          "tier": "B",
+          "notes": "Prompt management, PII masking, agent tracing; EU data center"
+        },
+        {
+          "name": "Maxim AI",
+          "type": "Full Lifecycle Platform",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Simulation + eval + observability; Bifrost open-source LLM gateway (Go)"
+        },
+        {
+          "name": "Comet Opik",
+          "type": "ML + LLM Observability",
+          "license": "Apache-2.0 (Opik OSS)",
+          "tier": "B",
+          "notes": "Comet heritage; PyTest CI; guardrails; PII detection"
+        },
+        {
+          "name": "Future AGI",
+          "type": "Unified Eval + Observability",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "traceAI auto-instrumentation; 100+ metrics; multimodal"
+        },
+        {
+          "name": "TrueFoundry",
+          "type": "Full-Stack AI Infra",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "AI Gateway, token-level cost tracking, FinOps; hybrid/on-prem"
+        },
+        {
+          "name": "Guardrails AI",
+          "type": "GenAI Reliability",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$8M raised; runtime guardrails; structured output validation"
+        },
+        {
+          "name": "New Relic",
+          "type": "APM + LLM Observability",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "OpenLIT integration; pre-built dashboards; OTLP endpoint"
+        },
+        {
+          "name": "Splunk (Cisco)",
+          "type": "Infrastructure + AI Observability",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Cisco acquisition 2025; GPU-to-application monitoring; AI-ready PODs"
+        },
+        {
+          "name": "Grafana Cloud",
+          "type": "AI Observability",
+          "license": "Open core + SaaS",
+          "tier": "B",
+          "notes": "OpenLIT integration; 5 prebuilt dashboards for GenAI"
+        },
+        {
+          "name": "Honeycomb",
+          "type": "Observability (OTel-native)",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Distributed tracing; high-cardinality; GenAI semantic conventions"
+        },
+        {
+          "name": "Netdata",
+          "type": "Real-Time GPU Monitoring",
+          "license": "Open source + SaaS",
+          "tier": "B",
+          "notes": "Per-second monitoring; NVIDIA/Intel GPU; DCGM collector; MCP server"
+        },
+        {
+          "name": "Dynatrace",
+          "type": "AIOps + AI Observability",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "AI-powered root cause analysis; full-stack monitoring"
+        },
+        {
+          "name": "NVIDIA DCGM",
+          "type": "GPU Monitoring",
+          "license": "Open source (NVIDIA)",
+          "tier": "B",
+          "notes": "GPU health, utilization, performance; Prometheus exporter"
+        },
+        {
+          "name": "Kong AI Gateway",
+          "type": "API Gateway + AI",
+          "license": "Open core + SaaS",
+          "tier": "B",
+          "notes": "Multi-LLM routing; semantic caching; rate limiting"
+        },
+        {
+          "name": "Vercel AI Gateway",
+          "type": "Serverless AI Gateway",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Unified API for AI providers; serverless edge deployment"
+        },
+        {
+          "name": "OpenRouter",
+          "type": "LLM Routing + Proxy",
+          "license": "Open source",
+          "tier": "B",
+          "notes": "Standardized API for 100+ open/commercial models"
+        },
+        {
+          "name": "Fastn",
+          "type": "MCP Gateway + Observability",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Managed MCP gateway; 1,000+ integrations; Adaptive Context Layer"
+        },
+        {
+          "name": "Xenos Labs",
+          "type": "LLM Cost/Latency Monitoring",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "Japan (Antler-backed); Y240M pre-seed; LLM cost/latency/quality"
+        },
+        {
+          "name": "Coxwave",
+          "type": "AI Trust + Verification",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "APAC; $4.8M raised Jan 2026; agent verification, reliability, governance"
+        },
+        {
+          "name": "WitnessAI",
+          "type": "AI Security + Governance",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$58M raised (Series B); runtime security, guardrails, policy enforcement"
+        },
+        {
+          "name": "JetStream Security",
+          "type": "AI Governance + Control",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$34M raised (Seed); enterprise AI visibility, risk controls, blueprints"
+        },
+        {
+          "name": "AIM Intelligence",
+          "type": "AI Red Teaming + Guardrails",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "APAC; $7M Series A; automated red teaming, real-time safety"
+        },
+        {
+          "name": "Tynapse",
+          "type": "Runtime Agent Security",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "APAC; $3.17M seed; blocking hallucinations, jailbreaks, data leakage"
+        },
+        {
+          "name": "White Circle",
+          "type": "AI Control Platform",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "Europe ($11M); monitor, protect, test, improve AI models"
+        },
+        {
+          "name": "Geordie AI",
+          "type": "AI Governance + Observability",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "Europe ($30M); agent posture, observability, compliance, controls"
+        },
+        {
+          "name": "Nexos.ai",
+          "type": "AI Orchestration + Governance",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "Europe ($35M); secure adoption, observability, cost control"
+        },
+        {
+          "name": "Aveni",
+          "type": "AI Assurance (Financial)",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "Europe ($16.2M); AI-agent conduct risk assessment; financial oversight"
+        },
+        {
+          "name": "Credo AI",
+          "type": "AI Governance Platform",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$41M raised; governance, risk, compliance workflows; EU AI Act"
+        },
+        {
+          "name": "Seldon",
+          "type": "MLOps + Governance",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$33M raised; model governance, explainability, monitoring"
+        },
+        {
+          "name": "Cranium",
+          "type": "AI Governance + Security",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$32M raised; AI security, compliance, risk management"
+        },
+        {
+          "name": "Distributional",
+          "type": "AI Testing Platform",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$30M raised; enterprise AI testing, statistical validation"
+        },
+        {
+          "name": "LatticeFlow",
+          "type": "AI Model Quality",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$15M raised; model quality, robustness, fairness testing"
+        },
+        {
+          "name": "Mindgard",
+          "type": "AI Security Testing",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$12M raised; adversarial testing, model security"
+        },
+        {
+          "name": "Deeploy",
+          "type": "Responsible AI Oversight",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$9M raised; AI oversight, explainability, compliance"
+        },
+        {
+          "name": "Vijil",
+          "type": "AI Agent Resilience",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$23M raised; reliability testing, security, governance"
+        },
+        {
+          "name": "Kolena",
+          "type": "AI Model Testing",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$21M raised; model testing, benchmarking, quality assurance"
+        },
+        {
+          "name": "Atla AI",
+          "type": "AI Agent Evaluation",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$6M raised; agent evaluation insights, scoring"
+        },
+        {
+          "name": "Confident AI",
+          "type": "Eval Platform (DeepEval)",
+          "license": "Proprietary + OSS",
+          "tier": "C",
+          "notes": "50+ metrics; cross-functional workflows; red teaming"
+        },
+        {
+          "name": "Middleware",
+          "type": "Full-Stack Cloud Observability",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "YC W2023; AI-based anomaly detection; GPT-4 error resolution"
+        },
+        {
+          "name": "Laminar",
+          "type": "AI Agent Observability",
+          "license": "Open source",
+          "tier": "C",
+          "notes": "YC 2026; trace workflows; replay agent runs; anomaly detection"
+        },
+        {
+          "name": "Traceloop / OpenLLMetry",
+          "type": "OTel-based LLM Tracing",
+          "license": "Open source",
+          "tier": "C",
+          "notes": "OpenTelemetry-native LLM application monitoring"
+        },
+        {
+          "name": "Arize AI",
+          "type": "ML + LLM Monitoring",
+          "license": "Mixed",
+          "tier": "C",
+          "notes": "$131M total raised; unified ML and LLM observability; drift detection"
+        },
+        {
+          "name": "Databricks MLflow",
+          "type": "Unified ML + LLM Lifecycle",
+          "license": "Open source (MLflow)",
+          "tier": "C",
+          "notes": "Experiment tracking; model registry; GenAI tracing; Spark scalability"
+        },
+        {
+          "name": "Amazon SageMaker",
+          "type": "AWS-native ML/LLM Ops",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "Model monitoring; batch/real-time eval jobs; managed infrastructure"
+        },
+        {
+          "name": "Azure Machine Learning",
+          "type": "Azure-native AI Platform",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "Dataset-driven evaluations; governance; access controls"
+        },
+        {
+          "name": "Google ADK",
+          "type": "Google Agent Development",
+          "license": "Open source (SDK)",
+          "tier": "C",
+          "notes": "Structured agent eval hooks; tool/action tracing; GCP integration"
+        },
+        {
+          "name": "NVIDIA NeMo Guardrails",
+          "type": "Runtime Guardrails",
+          "license": "Open source (NVIDIA)",
+          "tier": "C",
+          "notes": "Rule-and-rail framework; fact-checking; grounding"
+        },
+        {
+          "name": "Vectara HHEM-2.1",
+          "type": "Hallucination Detection",
+          "license": "Open weights",
+          "tier": "C",
+          "notes": "Cross-encoder hallucination model; RAG groundedness"
+        },
+        {
+          "name": "RAGAS",
+          "type": "RAG Evaluation Metrics",
+          "license": "Open source",
+          "tier": "C",
+          "notes": "Faithfulness, context precision, context recall; research-backed"
+        },
+        {
+          "name": "Giskard",
+          "type": "AI Quality Testing",
+          "license": "Open source",
+          "tier": "C",
+          "notes": "Bias detection, robustness testing, explainability"
+        },
+        {
+          "name": "Lakera",
+          "type": "GenAI Application Security",
+          "license": "Acquired",
+          "tier": "C",
+          "notes": "$30M raised; real-time guardrails, PII protection; acquired by Check Point"
+        },
+        {
+          "name": "Aporia",
+          "type": "AI Observability + Guardrails",
+          "license": "Acquired",
+          "tier": "C",
+          "notes": "$30M raised; ML monitoring, guardrails, drift detection; acquired"
+        },
+        {
+          "name": "Protect AI",
+          "type": "ML/ML Security",
+          "license": "Acquired",
+          "tier": "C",
+          "notes": "$108M raised; AI/ML system security, model scanning; acquired by Palo Alto"
+        },
+        {
+          "name": "CalypsoAI",
+          "type": "Enterprise AI Inference Security",
+          "license": "Acquired",
+          "tier": "C",
+          "notes": "$41M raised; inference security, model validation; acquired"
+        },
+        {
+          "name": "Deepchecks",
+          "type": "ML Validation + Monitoring",
+          "license": "Acquired",
+          "tier": "C",
+          "notes": "$14M raised; ML model validation, data drift; acquired"
+        },
+        {
+          "name": "Mona",
+          "type": "AI Model Monitoring",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$7M raised; custom metric monitoring for AI models"
+        },
+        {
+          "name": "Robust Intelligence",
+          "type": "AI Model Security",
+          "license": "Acquired",
+          "tier": "C",
+          "notes": "$44M raised; AI model security firewall; acquired by Cisco"
+        },
+        {
+          "name": "HiddenLayer",
+          "type": "AI Model Security",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$56M raised; AI model security platform, runtime protection"
+        },
+        {
+          "name": "Harmonic Security",
+          "type": "AI Data Protection",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$24M raised; data leakage prevention, shadow AI visibility"
+        },
+        {
+          "name": "Prompt Security",
+          "type": "GenAI Runtime Security",
+          "license": "Acquired",
+          "tier": "C",
+          "notes": "$23M raised; runtime GenAI security, prompt injection; acquired"
+        },
+        {
+          "name": "Lasso Security",
+          "type": "LLM Cybersecurity",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$6M raised; LLM security platform, data protection"
+        },
+        {
+          "name": "Trustible",
+          "type": "AI Governance",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$6M raised; enterprise AI governance, compliance"
+        },
+        {
+          "name": "Modulos",
+          "type": "AI Governance Compliance",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$11M raised; compliance-by-design for AI systems"
+        },
+        {
+          "name": "Singulr AI",
+          "type": "AI Governance Security",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$10M raised; agent security, governance, observability"
+        },
+        {
+          "name": "DeepKeep",
+          "type": "Enterprise AI Security",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$10M raised; AI model security, runtime protection"
+        },
+        {
+          "name": "Numalis",
+          "type": "Formal AI Validation",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$6M raised; mathematical validation, formal verification"
+        },
+        {
+          "name": "TrojAI",
+          "type": "AI Attack Protection",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$9M raised; adversarial attack detection, model hardening"
+        },
+        {
+          "name": "Zania",
+          "type": "AI Compliance (GRC)",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$18M raised; agentic AI for governance, risk, compliance"
+        },
+        {
+          "name": "Complyance",
+          "type": "AI-native GRC",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$20M raised; governance, risk, compliance automation"
+        },
+        {
+          "name": "Darwin AI",
+          "type": "Public Sector AI Governance",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$15M raised; government AI adoption, transparency, compliance"
+        },
+        {
+          "name": "Portal26",
+          "type": "GenAI Adoption Governance",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$15M raised; shadow AI visibility, responsible adoption"
+        },
+        {
+          "name": "AI Score",
+          "type": "AI Governance (Europe)",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$1M raised; enterprise visibility, compliance monitoring, risk scoring"
+        },
+        {
+          "name": "Alinia",
+          "type": "AI Compliance (Europe)",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$7.5M raised; guardrails API, auditing, policy enforcement"
+        },
+        {
+          "name": "Ciphero",
+          "type": "AI Verification Layer",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$2.5M raised; AI interaction capture, verification, governance"
+        },
+        {
+          "name": "Iridius",
+          "type": "Compliance-by-Design",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$8.6M raised; regulated enterprise workflows, validation"
+        },
+        {
+          "name": "Capsule Security",
+          "type": "Runtime Trust Layer",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$7M raised; agent monitoring, control, manipulation prevention"
+        },
+        {
+          "name": "Aigentsphere",
+          "type": "Agent Governance Infra",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$4M raised; monitoring, policy enforcement, compliance reporting"
+        }
+      ],
+      "tool_count": 97
+    },
+    "vector-databases": {
+      "name": "Vector Databases & RAG Infrastructure",
+      "description": "Vector stores, ANN libraries, RAG frameworks, document parsers, rerankers",
+      "estimated_total": 75,
+      "tools": [
+        {
+          "name": "Pinecone",
+          "type": "Managed Vector DB",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Market leader (~28% share); zero-ops serverless; $0.033/hr; sub-50ms p99 at billion scale"
+        },
+        {
+          "name": "Qdrant",
+          "type": "Vector DB",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "~22K stars; Rust-based; self-host + cloud; ACORN filtered HNSW; $50M Series B (Mar 2026)"
+        },
+        {
+          "name": "Weaviate",
+          "type": "Vector DB",
+          "license": "BSD-3-Clause",
+          "tier": "A",
+          "notes": "~12K stars; hybrid search (BM25+vector); multimodal; GraphQL; Engram memory layer"
+        },
+        {
+          "name": "Milvus",
+          "type": "Vector DB",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "~42K stars; billion-scale; GPU accel; K8s-native; Zilliz Cloud = managed"
+        },
+        {
+          "name": "Chroma",
+          "type": "Embedded Vector DB",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "~16K stars; developer experience; pip install; Rust rewrite 4x faster; Context-1 agentic search"
+        },
+        {
+          "name": "pgvector",
+          "type": "Postgres Extension",
+          "license": "PostgreSQL",
+          "tier": "A",
+          "notes": "~13-20K stars; HNSW + IVFFlat; pgvectorscale adds StreamingDiskANN; up to 5-10M vectors"
+        },
+        {
+          "name": "Zilliz / Vector Lakebase",
+          "type": "Managed (Milvus-based)",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "100B+ scale; lake-native; S3-based Vortex format; on-demand compute; Cardinal engine 10x"
+        },
+        {
+          "name": "Turbopuffer",
+          "type": "Managed Serverless",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Object-storage-first; no namespace limits; 10-100x cheaper at rest; native BM25"
+        },
+        {
+          "name": "Vorkath",
+          "type": "Managed Vector DB",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Bare-metal NVMe; $1/mo for 1M vec/1M q; no cold starts; Vamana graph in RAM"
+        },
+        {
+          "name": "LanceDB",
+          "type": "Embedded/Serverless",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "~5K stars; edge, local-first; zero-copy columnar; no server required; Cloud in beta"
+        },
+        {
+          "name": "Elasticsearch / ESRE",
+          "type": "Search+Vector",
+          "license": "Elastic/AGPLv3",
+          "tier": "A",
+          "notes": "~30K+ stars; enterprise search; GPU accel in v3.0; re-added AGPL 2024"
+        },
+        {
+          "name": "OpenSearch",
+          "type": "Search+Vector",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "~9.5K stars; AWS alternative; GPU-accelerated indexing v3.0; gRPC + MCP"
+        },
+        {
+          "name": "Redis Vector",
+          "type": "In-Memory Extension",
+          "license": "BSD/Proprietary",
+          "tier": "A",
+          "notes": "Sub-ms latency; caching; memory-bound; Redis Enterprise Cloud"
+        },
+        {
+          "name": "MongoDB Atlas Vector Search",
+          "type": "Document+Vector",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Vectors as native field; not for pure vector; Atlas $5K-70K/year"
+        },
+        {
+          "name": "SingleStore",
+          "type": "Analytics+Vector",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Real-time analytics + AI; trillion-row/sec claims; opaque pricing"
+        },
+        {
+          "name": "DataStax Astra (Cassandra)",
+          "type": "Managed (Cassandra)",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Real-time updates; immediate consistency; Cassandra 5.0 native vector + SAI"
+        },
+        {
+          "name": "Marqo",
+          "type": "End-to-End Vector",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "~2K stars; multimodal (text+image+video); built-in embedding; $5.2M seed"
+        },
+        {
+          "name": "ClickHouse",
+          "type": "Columnar+Vector",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "~46K stars; analytics + vector search; native vector search functions"
+        },
+        {
+          "name": "DuckDB",
+          "type": "Analytical+Vector",
+          "license": "MIT",
+          "tier": "B",
+          "notes": "~36K stars; embedded analytics + vector; integrated vector similarity search"
+        },
+        {
+          "name": "Oracle AI Database 26ai",
+          "type": "Enterprise DB+Vector",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Unified Hybrid Vector Search; vectors + relational + JSON + graph in one query"
+        },
+        {
+          "name": "Apache Cassandra 5.0",
+          "type": "Distributed DB+Vector",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "AI-driven similarity search; vector data type + Storage-Attached Indexes"
+        },
+        {
+          "name": "Vald",
+          "type": "Distributed ANN",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "Cloud-native; billion-scale ANN; auto-indexing, backup, horizontal scaling"
+        },
+        {
+          "name": "Cloudflare Vectorize",
+          "type": "Edge Managed",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Workers ecosystem; 50K namespaces; 5M vector cap; auto-RAG; no hybrid search"
+        },
+        {
+          "name": "Turso / sqlite-vec",
+          "type": "Edge Distributed",
+          "license": "MIT (libSQL)",
+          "tier": "B",
+          "notes": "Per-user vector isolation; SQLite with DiskANN; embedded replicas; $5/mo for 25M queries"
+        },
+        {
+          "name": "Vespa",
+          "type": "Vector+Search Engine",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "Real-time, hybrid AI search; Yahoo, Spotify; strong ranking + vector"
+        },
+        {
+          "name": "FAISS",
+          "type": "ANN Library",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "~39K stars; GPU-accelerated billion-scale; Meta; IVF, HNSW, RaBitQ; cuVS GPU"
+        },
+        {
+          "name": "ScaNN",
+          "type": "ANN Library",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "~31.5K stars; Google-scale inner product; SOAR algorithm; dynamic updates v1.3.0"
+        },
+        {
+          "name": "HNSWlib",
+          "type": "ANN Library",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "~7K stars; lightweight CPU HNSW; header-only C++; no GPU; 15+ mo since last release"
+        },
+        {
+          "name": "DiskANN",
+          "type": "Disk-Based ANN",
+          "license": "MIT",
+          "tier": "B",
+          "notes": "~2K stars; billion-scale SSD-backed; memory-efficient; used by pgvectorscale, Turso"
+        },
+        {
+          "name": "USearch",
+          "type": "ANN Library",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "~4K stars; SIMD-optimized vector search; fast index builds; cross-language bindings"
+        },
+        {
+          "name": "LangChain / LangGraph",
+          "type": "RAG Framework",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "~90K+ combined; chain orchestration; 100+ LLM integrations; MCP support"
+        },
+        {
+          "name": "LlamaIndex",
+          "type": "RAG Framework",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "~40K+ stars; document indexing; retrieval optimization; hierarchical chunking; hybrid index"
+        },
+        {
+          "name": "Haystack",
+          "type": "RAG Framework",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "Modular search pipelines; enterprise search + LLM integration; deepset Cloud"
+        },
+        {
+          "name": "Ragas",
+          "type": "RAG Eval",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "Most-cited; reference-free RAG evaluation; faithfulness, relevancy, precision, recall"
+        },
+        {
+          "name": "TruLens",
+          "type": "RAG Eval+Tracing",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "~3.2K stars; production tracing + RAG triad; inline eval; feedback functions"
+        },
+        {
+          "name": "DeepEval",
+          "type": "RAG Eval",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "Unit-test-style CI evaluation; pytest integration; agentic eval support"
+        },
+        {
+          "name": "Braintrust",
+          "type": "RAG Eval+Observability",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Production standard; production-to-evaluation feedback; Brainstore 80x query perf"
+        },
+        {
+          "name": "LangSmith",
+          "type": "LLM Observability",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "LangChain ecosystem; dataset-driven regression eval; experiment comparison"
+        },
+        {
+          "name": "Firecrawl",
+          "type": "Document Parsing",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "API-first web+PDF → Markdown; Rust-based PDF engine; MCP server; RAG-ready"
+        },
+        {
+          "name": "LlamaParse",
+          "type": "Document Parsing",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Agentic OCR for RAG; 90+ formats; 10K free credits/mo; premium GPT-4V mode"
+        },
+        {
+          "name": "Unstructured",
+          "type": "Document Parsing",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "25+ format semantic extraction; element-typed output; hi_res GPU strategy; $1/1K pages"
+        },
+        {
+          "name": "Docling (IBM)",
+          "type": "Layout Parser",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "61K stars; open-source layout parser; MCP server; LangChain/LlamaIndex integration"
+        },
+        {
+          "name": "Reducto",
+          "type": "Document Parsing",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Agentic OCR correction; ~20% higher accuracy; SOC 2/HIPAA; on-prem; ~$0.03/page"
+        },
+        {
+          "name": "LandingAI ADE",
+          "type": "Document Parsing",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Regulated industries; visual grounding; DPT-2; 99.16% DocVQA (self-reported); $0.03/page"
+        },
+        {
+          "name": "Mistral OCR 3",
+          "type": "Document Parsing",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "VLM-based document understanding; page-image → structured output; flexible but slower"
+        },
+        {
+          "name": "Marker-PDF",
+          "type": "Document Parsing",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "36K stars; GPU-accelerated layout-perfect Markdown; multi-format PDF/PPTX/DOCX/EPUB"
+        },
+        {
+          "name": "pdfmux",
+          "type": "Document Parsing",
+          "license": "MIT",
+          "tier": "C",
+          "notes": "Self-hosted; confidence-scored; 0.905 on opendataloader-bench; CPU-only; free"
+        },
+        {
+          "name": "MinerU / MinerU-Popo",
+          "type": "Document Parsing",
+          "license": "Apache-2.0",
+          "tier": "C",
+          "notes": "Academic/Research; post-processing OCR for cross-page continuity; SJTU/SHAI Lab; 4B model"
+        },
+        {
+          "name": "AWS Textract",
+          "type": "Document Parsing",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "AWS ecosystem; enterprise OCR at scale; DetectDocumentText, AnalyzeDocument APIs"
+        },
+        {
+          "name": "Google Document AI",
+          "type": "Document Parsing",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "GCP ecosystem; 200+ languages, handwriting; Gemini-powered; Layout Parser for RAG"
+        },
+        {
+          "name": "Azure Document Intelligence",
+          "type": "Document Parsing",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Azure ecosystem; enterprise compliance; prebuilt + custom models; container on-prem"
+        },
+        {
+          "name": "Docsumo",
+          "type": "Document Parsing",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Finance/ops; no-code document workflows; 95%+ extraction accuracy; validation rules"
+        },
+        {
+          "name": "Cohere Rerank",
+          "type": "Reranker",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Cross-encoder reranking; rerank-v3.5; multilingual; high availability"
+        },
+        {
+          "name": "Voyage AI Rerank",
+          "type": "Reranker",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Instruction-following reranker; rerank-2.5; agent/conversation tuned; lightweight"
+        },
+        {
+          "name": "ZeroEntropy zerank-1",
+          "type": "Reranker",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Fastest latency; 60ms; 0.89 NDCG@10 healthcare; flexible licensing"
+        },
+        {
+          "name": "BGE Reranker v2",
+          "type": "Reranker",
+          "license": "MIT",
+          "tier": "B",
+          "notes": "Open-source; Chinese+English; cross-encoder; widely used in Asian deployments"
+        },
+        {
+          "name": "Jina AI Rerank",
+          "type": "Reranker",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "Open-weight; multimodal reranker; images + PDFs; late chunking support"
+        },
+        {
+          "name": "Pinecone Nexus",
+          "type": "Knowledge Engine",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "New (2026); agent knowledge infrastructure; task-specific knowledge representations"
+        },
+        {
+          "name": "Chroma Context-1",
+          "type": "Agentic Search",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "New (2026); retrieval subagent; query decomposition; iterative search; context mgmt"
+        },
+        {
+          "name": "Weaviate Engram",
+          "type": "Agent Memory",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "New (2026); memory layer for agents; interaction records; topic organization; merge/delete"
+        },
+        {
+          "name": "Onyx (Danswer)",
+          "type": "Enterprise RAG Platform",
+          "license": "MIT",
+          "tier": "B",
+          "notes": "~40+ connectors; open-source Glean alternative; self-hostable; air-gapped; Netflix, Ramp"
+        },
+        {
+          "name": "Glean",
+          "type": "Enterprise AI Search",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "100+ connectors; premium workplace search; $50+/user/mo; cloud-only (no true self-host)"
+        },
+        {
+          "name": "Microsoft Copilot / M365",
+          "type": "Enterprise AI Search",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "M365 ecosystem; embedded AI across Office; $30/user add-on; requires full M365"
+        },
+        {
+          "name": "SphereIQ",
+          "type": "Enterprise RAG Platform",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Regulated industries; EU AI Act compliance wizard; self-hosted default; BYOK LLM"
+        },
+        {
+          "name": "PipesHub",
+          "type": "Enterprise RAG Platform",
+          "license": "Open source",
+          "tier": "B",
+          "notes": "Knowledge graph architecture; Google/MS connectors; on-prem + cloud; model-agnostic"
+        },
+        {
+          "name": "Guru",
+          "type": "Knowledge Management",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Curated knowledge; verified, governance-first; $15/user; real-time contextual suggestions"
+        },
+        {
+          "name": "GoSearch",
+          "type": "Enterprise AI Search",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Freemium; federated-first, agentic; transparent pricing; configurable LLMs"
+        },
+        {
+          "name": "Coveo",
+          "type": "Enterprise Search",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Customer-facing; ML-driven relevance; Salesforce/SAP integration; hybrid"
+        },
+        {
+          "name": "Algolia",
+          "type": "Search API",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Developer-driven; fast application search; $1.50/1K requests; not internal KB search"
+        },
+        {
+          "name": "Meilisearch",
+          "type": "Search Engine",
+          "license": "MIT",
+          "tier": "B",
+          "notes": "Modern hybrid; search engine + vector store; /chat API; often replaces standalone vector DB"
+        },
+        {
+          "name": "Typesense",
+          "type": "Search Engine",
+          "license": "GPL-3.0",
+          "tier": "B",
+          "notes": "Developer-friendly; typo-tolerant search; no native vector (as of 2026); hybrid via partners"
+        },
+        {
+          "name": "Neo4j",
+          "type": "Graph Database",
+          "license": "GPL/Proprietary",
+          "tier": "B",
+          "notes": "Knowledge graph + vectors; Cypher queries; GDS library; graph-native RAG"
+        },
+        {
+          "name": "Amazon Neptune",
+          "type": "Graph DB (Managed)",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "AWS ecosystem; RDF + property graphs; fully managed; optimized for connected data"
+        },
+        {
+          "name": "ArangoDB",
+          "type": "Multi-Model DB",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "Enterprise; graph + document + vector; flexible hybrid RAG; multi-model queries"
+        },
+        {
+          "name": "Actian VectorAI DB",
+          "type": "Vector+Analytics",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Enterprise; offline multimodal copilot; named vectors; filtered search; hybrid RRF fusion"
+        },
+        {
+          "name": "KDB.AI",
+          "type": "Time-Series+Vector",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Finance/quant; unified qFlat, IVF, HNSW; quant-specific; high-throughput ingestion"
+        },
+        {
+          "name": "Deep Lake (Activeloop)",
+          "type": "Data Lake+Vector",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "ML pipelines; tensor storage + vector search; inverted + BM25 indexes; dataset optimization"
+        },
+        {
+          "name": "Vectorize AI",
+          "type": "RAG Data Prep",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "Seed stage ($3.6M); unstructured → vector DB optimization; data integration for RAG"
+        },
+        {
+          "name": "Ollama",
+          "type": "Local LLM Serving",
+          "license": "MIT",
+          "tier": "B",
+          "notes": "Massive adoption; on-premise; 52M monthly downloads; not for multi-tenant production"
+        },
+        {
+          "name": "vLLM",
+          "type": "Local LLM Serving",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "Onyx-compatible; air-gapped RAG; PagedAttention; 200+ models"
+        }
+      ],
+      "tool_count": 80
+    },
+    "model-serving": {
+      "name": "Model Serving & Inference Engines",
+      "description": "Inference engines, deployment platforms, API gateways, edge/on-device inference",
+      "estimated_total": 89,
+      "tools": [
+        {
+          "name": "vLLM",
+          "type": "Inference Engine",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "73.7K+ stars; PagedAttention; 200+ models; multi-GPU (NVIDIA, AMD, Intel, TPU)"
+        },
+        {
+          "name": "SGLang",
+          "type": "Inference Engine",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "~20K+ stars; RadixAttention; 29% throughput advantage on RAG workloads"
+        },
+        {
+          "name": "TensorRT-LLM",
+          "type": "Inference Engine",
+          "license": "Apache-2.0 + closed",
+          "tier": "A",
+          "notes": "NVIDIA-backed; highest throughput; 30-60% faster than vLLM on H100; per-model compile"
+        },
+        {
+          "name": "llama.cpp",
+          "type": "Inference Engine",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "100K+ stars; GGUF format; Metal/CUDA/Vulkan/ROCm; ARM, Raspberry Pi, WASM"
+        },
+        {
+          "name": "NVIDIA Dynamo",
+          "type": "Orchestration",
+          "license": "Open source",
+          "tier": "A",
+          "notes": "GTC 2026; disaggregated serving; KV-aware routing; 7x Blackwell boost; replaces Triton"
+        },
+        {
+          "name": "KServe",
+          "type": "K8s Model Serving",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "CNCF Incubating; InferenceService CRD; scale-to-zero; canary; vLLM/TGI runtimes"
+        },
+        {
+          "name": "BentoML",
+          "type": "Model Serving",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "Python-first packaging; BentoCloud hosted; multi-framework"
+        },
+        {
+          "name": "Ray Serve",
+          "type": "Distributed Serving",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "Multi-model serving graphs; online RAG; integration with Ray training"
+        },
+        {
+          "name": "Ollama",
+          "type": "Local LLM Serving",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "52M monthly downloads; on-premise; not for multi-tenant production (collapses under 5 concurrent)"
+        },
+        {
+          "name": "LMDeploy",
+          "type": "Inference Engine",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "Shanghai AI Lab; TurboMind C++/CUDA; 1.5x vLLM on AWQ/MXFP4; DeepSeek/Qwen/InternLM"
+        },
+        {
+          "name": "TGI (Text Generation Inference)",
+          "type": "Inference Engine",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "HuggingFace-backed; 800+ HF models; Rust HTTP server; maintenance mode as of late 2025"
+        },
+        {
+          "name": "DeepSpeed-MII",
+          "type": "Inference Engine",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "Microsoft Research; Blocked KV caching; Dynamic SplitFuse; 37,000+ models"
+        },
+        {
+          "name": "Aphrodite Engine",
+          "type": "Inference Engine",
+          "license": "AGPL-3.0",
+          "tier": "B",
+          "notes": "PygmalionAI; vLLM fork; broadest quantization (FP2-FP12, EXL2, GGUF); creative/roleplay"
+        },
+        {
+          "name": "MLX",
+          "type": "ML Framework + Inference",
+          "license": "MIT",
+          "tier": "B",
+          "notes": "Apple; 24,600+ stars; unified memory; 4,255+ HF models; Apple Silicon only"
+        },
+        {
+          "name": "ExLlamaV2",
+          "type": "Inference Engine",
+          "license": "MIT",
+          "tier": "B",
+          "notes": "EXL2 quantization; 2-3x faster than GGUF on GPU; single-card focus"
+        },
+        {
+          "name": "CTranslate2",
+          "type": "Inference Engine",
+          "license": "MIT",
+          "tier": "B",
+          "notes": "OpenNMT; fast inference for Transformer models; C++ backend; Python bindings"
+        },
+        {
+          "name": "TensorRT Edge-LLM",
+          "type": "Edge Engine",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "NVIDIA; C++ framework; EAGLE-3 speculative decoding; NVFP4; chunked prefill"
+        },
+        {
+          "name": "MindIE",
+          "type": "Inference Engine",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Huawei Ascend NPU专用; 闭源商业"
+        },
+        {
+          "name": "RTP-LLM",
+          "type": "Inference Engine",
+          "license": "Open source",
+          "tier": "B",
+          "notes": "Alibaba's internal serving engine; MoE and long-context optimizations"
+        },
+        {
+          "name": "NVIDIA Nim",
+          "type": "Containerized Serving",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Containerized product on TensorRT-LLM; NGC distribution"
+        },
+        {
+          "name": "Triton Inference Server",
+          "type": "General Inference Server",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "NVIDIA; multi-framework (LLM + CV + tabular); being displaced by Dynamo for LLMs"
+        },
+        {
+          "name": "Seldon Core v2",
+          "type": "K8s Model Serving",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "Multi-step pipelines; drift detection; MLServer multi-model per GPU"
+        },
+        {
+          "name": "llm-d",
+          "type": "Distributed Inference",
+          "license": "Open source",
+          "tier": "B",
+          "notes": "Community; multi-node, multi-GPU for 70B+; disaggregated serving; KV cache offloading"
+        },
+        {
+          "name": "KAITO",
+          "type": "K8s Operator",
+          "license": "Open source",
+          "tier": "B",
+          "notes": "Microsoft; AKS, K8s; automates GPU pool provisioning, model deployment, inference serving"
+        },
+        {
+          "name": "Kueue",
+          "type": "GPU Scheduling",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "CNCF; multi-tenant GPU queueing; fair-share; preemption; GPU util 25-35% → 60-85%"
+        },
+        {
+          "name": "NVIDIA GPU Operator",
+          "type": "K8s GPU Management",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Automates drivers, MIG, time-slicing, DCGM monitoring"
+        },
+        {
+          "name": "TorchServe",
+          "type": "General Inference Server",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "PyTorch/Amazon; PyTorch-native; less LLM-specific than vLLM"
+        },
+        {
+          "name": "TensorFlow Serving",
+          "type": "General Inference Server",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "Google; TensorFlow-native; legacy for LLM workloads"
+        },
+        {
+          "name": "Fireworks AI",
+          "type": "Managed API",
+          "license": "Commercial",
+          "tier": "A",
+          "notes": "Per-token; FireAttention sub-100ms TTFT; low latency"
+        },
+        {
+          "name": "Together AI",
+          "type": "Managed API",
+          "license": "Commercial",
+          "tier": "A",
+          "notes": "Per-token; broad model catalog; fine-tuned deployment; research focus"
+        },
+        {
+          "name": "Replicate",
+          "type": "Managed API",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Per-second billing; simple API; Cog container format; higher effective cost at volume"
+        },
+        {
+          "name": "Modal",
+          "type": "Serverless GPU",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Per-GPU-second; fast cold starts; vLLM native; pay-per-second for spiky workloads"
+        },
+        {
+          "name": "Baseten",
+          "type": "Managed + Hybrid",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Free tier → Enterprise; multi-cloud capacity; TensorRT/SGLang/vLLM/TGI runtimes"
+        },
+        {
+          "name": "Deep Infra",
+          "type": "Managed API",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Low-cost inference; integrates with Dynamo"
+        },
+        {
+          "name": "RunPod",
+          "type": "GPU Cloud + Serverless",
+          "license": "Commercial",
+          "tier": "A",
+          "notes": "$0.34-2.69/hr; Pods + Serverless + Community Cloud; 30+ regions; cost leader"
+        },
+        {
+          "name": "Lambda Labs",
+          "type": "GPU Cloud",
+          "license": "Commercial",
+          "tier": "A",
+          "notes": "$3.78/hr H100 SXM; 99.9% SLA; 1-Click Clusters (16-2,000 GPUs); no egress fees"
+        },
+        {
+          "name": "Vast.ai",
+          "type": "P2P GPU Marketplace",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "~$0.90/hr H100 (interruptible); cheapest verified rates; 68+ GPU classes"
+        },
+        {
+          "name": "CoreWeave",
+          "type": "GPU Cloud",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "K8s-native; multi-region; NVIDIA partner; dedicated infra"
+        },
+        {
+          "name": "Nebius",
+          "type": "GPU Cloud",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "NVIDIA partner; Dynamo/TensorRT-LLM optimized"
+        },
+        {
+          "name": "Crusoe",
+          "type": "GPU Cloud",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Flared-gas powered data centers; NVIDIA partner"
+        },
+        {
+          "name": "GMI Cloud",
+          "type": "GPU Cloud",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "H200 bare metal; 40% speed advantage over virtualized cloud"
+        },
+        {
+          "name": "LiteLLM",
+          "type": "LLM Gateway",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "18K+ stars; 100+ providers; OpenAI-compatible proxy; YC W23"
+        },
+        {
+          "name": "Portkey",
+          "type": "AI Gateway",
+          "license": "Partially open",
+          "tier": "A",
+          "notes": "250+ models; 20-40ms latency; MCP Gateway; open source March 2026"
+        },
+        {
+          "name": "Bifrost",
+          "type": "AI Gateway",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "Go; ~11μs overhead; virtual keys; RBAC; SSO; vault integration; MCP tool filtering"
+        },
+        {
+          "name": "TensorZero",
+          "type": "AI Gateway",
+          "license": "Open source",
+          "tier": "B",
+          "notes": "Rust; ~0.3ms; LLM gateway, observability, optimization, evaluations, experimentation"
+        },
+        {
+          "name": "ExecuTorch",
+          "type": "Edge Runtime",
+          "license": "Open source",
+          "tier": "B",
+          "notes": "Meta; 1.0 GA Oct 2025; 50KB footprint; 12+ hardware backends; billions of users"
+        },
+        {
+          "name": "MLC-LLM",
+          "type": "Edge Runtime",
+          "license": "Open source",
+          "tier": "C",
+          "notes": "On-device deployment; fragmented; Ollama emerged as winner in this niche"
+        }
+      ],
+      "tool_count": 47
+    },
+    "security-guardrails": {
+      "name": "Security, Guardrails & AI Safety",
+      "description": "Input/output validation, prompt injection defense, PII protection, AI governance",
+      "estimated_total": 80,
+      "tools": [
+        {
+          "name": "Guardrails AI",
+          "type": "Guardrail Framework",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "6.8K stars; 70+ Hub validators; Python-centric; RAIL specs"
+        },
+        {
+          "name": "NVIDIA NeMo Guardrails",
+          "type": "Guardrail Framework",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "5.6K stars; dialog/input/output/retrieval/execution rails; Colang DSL; sub-100ms GPU"
+        },
+        {
+          "name": "Lakera Guard (Check Point)",
+          "type": "Runtime Firewall",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Gandalf dataset; sub-50ms; acquired by Check Point"
+        },
+        {
+          "name": "Future AGI Protect",
+          "type": "Gateway + Guardrails",
+          "license": "Apache-2.0 (gateway)",
+          "tier": "A",
+          "notes": "18+ scanners; agent tool-call rails; 65ms text / 107ms image"
+        },
+        {
+          "name": "Prompt Security (SentinelOne)",
+          "type": "Runtime Defense",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Inline prompt/response inspection; acquired by SentinelOne 2025"
+        },
+        {
+          "name": "Arthur AI Shield",
+          "type": "LLM Firewall",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Prompt injection, hallucination scoring; SOC 2 compliant; REST API"
+        },
+        {
+          "name": "AWS Bedrock Guardrails",
+          "type": "Managed Guardrails",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "AWS-native; content filtering; topic denial; PII; per text-unit pricing"
+        },
+        {
+          "name": "Azure AI Content Safety",
+          "type": "Content Moderation",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Enterprise; toxicity, hate, self-harm, violence; multilingual; severity levels"
+        },
+        {
+          "name": "Google Model Armor",
+          "type": "Input/Output Filtering",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "GCP-native; prompt injection, data leakage; part of Vertex AI"
+        },
+        {
+          "name": "OpenAI Moderation API",
+          "type": "Content Moderation",
+          "license": "Free (hosted)",
+          "tier": "A",
+          "notes": "Mass adoption; text + image toxicity; 13+ harm categories; free endpoint"
+        },
+        {
+          "name": "Llama Guard 3 (Meta)",
+          "type": "Safety Classifier",
+          "license": "Open weights",
+          "tier": "A",
+          "notes": "14-category content safety; 3.8B parameters; prompt-based taxonomy"
+        },
+        {
+          "name": "Patronus AI",
+          "type": "Evaluator + Guardrails",
+          "license": "Proprietary + OSS (Lynx)",
+          "tier": "A",
+          "notes": "Regulated domains; hallucination, PII, copyright, finance; Lynx open-source"
+        },
+        {
+          "name": "Galileo",
+          "type": "Eval + Runtime Protection",
+          "license": "Proprietary + OSS (Agent Control)",
+          "tier": "A",
+          "notes": "Luna-2 SLM evaluators; 0.95 F1; 98% lower cost than LLM judges; runtime guardrails"
+        },
+        {
+          "name": "Fiddler AI",
+          "type": "Observability + Guardrails",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "$100M raised; hallucination, safety, jailbreak, ML drift; <100ms Trust Models"
+        },
+        {
+          "name": "Confident AI (DeepTeam)",
+          "type": "Red Teaming + Eval",
+          "license": "Apache-2.0 (OSS)",
+          "tier": "A",
+          "notes": "50+ vulnerabilities; OWASP/NIST mapping; pytest integration; CI-native"
+        },
+        {
+          "name": "Protect AI (Palo Alto / Prisma AIRS)",
+          "type": "Full Lifecycle Security",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "$108M raised; model scanning, red teaming, runtime firewall; acquired by Palo Alto"
+        },
+        {
+          "name": "HiddenLayer",
+          "type": "AI Security Posture",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "$56M raised; model scanning, runtime threat detection, AIDR; MITRE ATLAS aligned"
+        },
+        {
+          "name": "WitnessAI",
+          "type": "Network-level Governance",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "$58M raised (Series B); behavioral intent analysis, policy routing; network connector"
+        },
+        {
+          "name": "Credo AI",
+          "type": "AI Governance Platform",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "$41M raised; AI inventory, risk assessments, policy packs; EU AI Act, NIST, ISO 42001"
+        },
+        {
+          "name": "APort / OpenClaw",
+          "type": "Pre-tool-call Authorization",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "OAP passports, policy enforcement; supports LangChain, CrewAI, Claude Code"
+        },
+        {
+          "name": "StackOne Defender",
+          "type": "Prompt Injection Defense",
+          "license": "Open Source (npm)",
+          "tier": "B",
+          "notes": "22MB ONNX model; tool result defense; Tier 1 patterns + Tier 2 ML classifier"
+        },
+        {
+          "name": "ClawGuard",
+          "type": "Runtime Security",
+          "license": "Open Source (research)",
+          "tier": "B",
+          "notes": "SMU research; user-confirmed rule sets at tool boundaries; blocks web/MCP/skill injection"
+        },
+        {
+          "name": "Nova-tracer",
+          "type": "Claude Code Protection",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Active (PreToolUse) + Passive (PostToolUse); keyword/semantics/LLM three-tier detection"
+        },
+        {
+          "name": "Bifrost",
+          "type": "AI Gateway",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "11μs overhead; MCP tool filtering; virtual keys; RBAC; SSO; vault integration"
+        },
+        {
+          "name": "Rebuff",
+          "type": "Prompt Injection Detection",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Input filtering, semantic analysis; Protect AI project; self-hosted"
+        },
+        {
+          "name": "LLM Guard (Protect AI)",
+          "type": "Input/Output Scanners",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Prompt injection, PII, toxic, secrets; multiple scanners; pipeline orchestration"
+        },
+        {
+          "name": "Noma Security",
+          "type": "Enterprise AI Posture",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "AI inventory, governance, red teaming, runtime; broad platform for AI risk management"
+        },
+        {
+          "name": "Harmonic Security",
+          "type": "Workforce AI Governance",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$24M raised; browser-based AI DLP; intent classification; ~1,000 AI tools catalog"
+        },
+        {
+          "name": "Lasso Security",
+          "type": "Multi-point Enforcement",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$6M raised; browser ext + API gateway + SDK + MCP gateway; strong app-sec and agent features"
+        },
+        {
+          "name": "Quilr",
+          "type": "AI DLP + Security",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Early-stage; shadow AI discovery, prompt injection defense; OWASP/NIST mapped"
+        },
+        {
+          "name": "Aurascape",
+          "type": "AI Interaction Layer",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Native decode, MCP tool-call governance, lineage; additive overlay; 48-hour SLA for new apps"
+        },
+        {
+          "name": "Robust Intelligence (Cisco)",
+          "type": "AI Security",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Acquired by Cisco; model validation, runtime protection"
+        },
+        {
+          "name": "Mindgard",
+          "type": "AI Security + Red Teaming",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$12M raised; AI reconnaissance, adversarial testing, runtime; EU AI Act mapped"
+        },
+        {
+          "name": "Repello",
+          "type": "Agentic AI Security",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Threat detection, agent workflows; focus on agentic AI attack chains"
+        },
+        {
+          "name": "Pillar Security",
+          "type": "AI Security",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "AI app security; independent as of mid-2026"
+        },
+        {
+          "name": "Cyera",
+          "type": "Data Security for AI",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "DSPM for AI, data classification; AI-sensitive data exposure"
+        },
+        {
+          "name": "Cato AI Security (ex-Aim)",
+          "type": "SASE-integrated AI Sec",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Shadow AI governance, AI firewall; modular adoption; BYOD limitations"
+        },
+        {
+          "name": "CrowdStrike Falcon",
+          "type": "Endpoint + AI Runtime",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "AI workload detection, behavioral analytics; Charlotte AI analyst assistant"
+        },
+        {
+          "name": "Darktrace",
+          "type": "Self-Learning AI Sec",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Network/cloud/email anomaly detection; limited prompt-level inspection"
+        },
+        {
+          "name": "Zscaler",
+          "type": "Zero Trust AI Security",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "CASB shadow-IT, AI Guard, MCP Gateway; SSE-integrated; announced MCP 2026"
+        },
+        {
+          "name": "Netskope",
+          "type": "SSE AI Guardrails",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "AI traffic inspection, SaaS coverage; existing SSE customers"
+        },
+        {
+          "name": "Palo Alto Networks",
+          "type": "AI Access + AIRS",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Prisma AIRS, AI Access Security, Browser; platform consolidation play"
+        },
+        {
+          "name": "Holistic AI",
+          "type": "Compliance Fast-lane",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Regulated; EU AI Act, NYC LL 144, ISO 42001 checklists; model cards auto-gen"
+        },
+        {
+          "name": "CalypsoAI",
+          "type": "Trust Layer for LLMs",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Red-Team, Defend, Observe modules; SIEM/SOAR connectors; model-agnostic"
+        },
+        {
+          "name": "AccuKnox",
+          "type": "Zero Trust AI-SPM",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Runtime Zero Trust, AI workload security; real-time defense; DevSecOps integration"
+        },
+        {
+          "name": "PyRIT (Microsoft)",
+          "type": "Red Teaming Framework",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Multi-turn orchestration, custom campaigns; model/platform agnostic; MS Red Team"
+        },
+        {
+          "name": "Garak (NVIDIA)",
+          "type": "Vulnerability Scanner",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "100+ probes for jailbreak, leakage, toxicity; broad model provider support"
+        },
+        {
+          "name": "Inspect (UK AISI)",
+          "type": "Evaluation Framework",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Dangerous-capability and alignment evaluations; used by UK AISI and partners"
+        },
+        {
+          "name": "Prediction Guard",
+          "type": "Governed API",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "OpenAI-compatible, self-hosted control plane; LangChain integration; log ownership"
+        },
+        {
+          "name": "Fleece AI",
+          "type": "Agent Governance",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Audit logs, RBAC, rate limits, depth bounds; EU region support; Mistral hosting"
+        },
+        {
+          "name": "ElixirData Context OS",
+          "type": "Runtime Governance OS",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Regulated enterprises; Policy Gates, Decision Traces, Authority Model; Level 3+ maturity"
+        },
+        {
+          "name": "Salesforce Einstein Trust Layer",
+          "type": "CRM AI Trust",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Zero data retention, masking, audit trails; GDPR, HIPAA, PCI DSS aligned"
+        },
+        {
+          "name": "Legalithm",
+          "type": "EU AI Act Compliance",
+          "license": "Free (SME window)",
+          "tier": "B",
+          "notes": "EU Startups/SMEs; applicability checker, risk classification, Annex IV; free through ~Apr 2028"
+        },
+        {
+          "name": "RegulAI",
+          "type": "Regulatory Mapping",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Enterprise; real-time reg updates; 7-stage AI lifecycle; 3,200+ global regulations"
+        },
+        {
+          "name": "Alhena AI",
+          "type": "Ecommerce AI Compliance",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Privacy Consent Gate, GDPR redaction, hallucination; SOC 2 Type 2; EU data residency"
+        },
+        {
+          "name": "DeepKeep",
+          "type": "Enterprise AI Security",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$10M raised; AI model security, runtime protection"
+        },
+        {
+          "name": "Numalis",
+          "type": "Formal AI Validation",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$6M raised; mathematical validation, formal verification"
+        },
+        {
+          "name": "TrojAI",
+          "type": "AI Attack Protection",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$9M raised; adversarial attack detection, model hardening"
+        },
+        {
+          "name": "Zania",
+          "type": "AI Compliance (GRC)",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$18M raised; agentic AI for governance, risk, compliance"
+        },
+        {
+          "name": "Complyance",
+          "type": "AI-native GRC",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$20M raised; governance, risk, compliance automation"
+        },
+        {
+          "name": "Darwin AI",
+          "type": "Public Sector AI Governance",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$15M raised; government AI adoption, transparency, compliance"
+        },
+        {
+          "name": "Portal26",
+          "type": "GenAI Adoption Governance",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "$15M raised; shadow AI visibility, responsible adoption"
+        },
+        {
+          "name": "AI Score",
+          "type": "AI Governance (Europe)",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$1M raised; enterprise visibility, compliance monitoring, risk scoring"
+        },
+        {
+          "name": "Alinia",
+          "type": "AI Compliance (Europe)",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$7.5M raised; guardrails API, auditing, policy enforcement"
+        },
+        {
+          "name": "Ciphero",
+          "type": "AI Verification Layer",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$2.5M raised; AI interaction capture, verification, governance"
+        },
+        {
+          "name": "Iridius",
+          "type": "Compliance-by-Design",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$8.6M raised; regulated enterprise workflows, validation"
+        },
+        {
+          "name": "Capsule Security",
+          "type": "Runtime Trust Layer",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$7M raised; agent monitoring, control, manipulation prevention"
+        },
+        {
+          "name": "Aigentsphere",
+          "type": "Agent Governance Infra",
+          "license": "Proprietary",
+          "tier": "C",
+          "notes": "$4M raised; monitoring, policy enforcement, compliance reporting"
+        }
+      ],
+      "tool_count": 68
+    },
+    "llmops-platforms": {
+      "name": "LLMOps Platforms & Workflow Automation",
+      "description": "Workflow builders, prompt management, no-code/low-code AI platforms, CI/CD for AI",
+      "estimated_total": 130,
+      "tools": [
+        {
+          "name": "Dify",
+          "type": "LLM App Builder",
+          "license": "Modified Apache-2.0",
+          "tier": "A",
+          "notes": "142K stars; visual workflow, RAG, Agent; most-starred OSS; commercial restrictions on multi-tenant SaaS"
+        },
+        {
+          "name": "Flowise",
+          "type": "Visual LLM Builder",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "54.9K stars; drag-and-drop LLM flows; LangChain-native; self-hostable; owned by Workday"
+        },
+        {
+          "name": "n8n",
+          "type": "Workflow Automation",
+          "license": "Fair-code",
+          "tier": "A",
+          "notes": "188K stars; 400+ integrations, AI agent nodes; self-hostable; Germany-based; EU-friendly"
+        },
+        {
+          "name": "Vellum",
+          "type": "Enterprise Orchestration",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "McKinsey, Coframe; experimentation, evaluation, deployment; A/B testing; SOC 2; 99.998% uptime"
+        },
+        {
+          "name": "PromptLayer",
+          "type": "Prompt Management",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Prompt engineering; collaboration, testing, evaluation; no-code editor for non-technical"
+        },
+        {
+          "name": "Pezzo",
+          "type": "LLMOps Platform",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Developer-first; prompt design, version management, troubleshooting; two lines of code"
+        },
+        {
+          "name": "Braintrust",
+          "type": "Evaluation Platform",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "Notion, Stripe, Vercel; evaluation-driven development; Loop AI agent; 13+ integrations"
+        },
+        {
+          "name": "Zapier",
+          "type": "Workflow Automation",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "7,000+ app integrations; no-code automation; AI steps, Zapier Agents, Tables, Interfaces"
+        },
+        {
+          "name": "Make",
+          "type": "Workflow Automation",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "1,000+ integrations; visual canvas builder; filters, routers, iterators; error handling first-class"
+        },
+        {
+          "name": "Gumloop",
+          "type": "AI-Native Automation",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "~$60M funding; 130+ nodes; multi-model routing; Skills for agents; YC-backed"
+        },
+        {
+          "name": "CrewAI",
+          "type": "Multi-Agent Framework",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Python-based; multi-agent collaboration; custom pricing; agent teamwork simulation"
+        },
+        {
+          "name": "AutoGen",
+          "type": "Multi-Agent Framework",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Microsoft Research; autonomous task execution; self-prompting; maintenance mode as of 2026"
+        },
+        {
+          "name": "LangChain",
+          "type": "LLM Framework",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "134K stars; 1,000+ pre-built integrations; building applications with LLMs"
+        },
+        {
+          "name": "LangGraph",
+          "type": "Agent Orchestration",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "LangChain ecosystem; stateful, cyclic multi-agent orchestration; Deep Agents for long-running"
+        },
+        {
+          "name": "LlamaIndex",
+          "type": "RAG Framework",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Broad adoption; connecting LLMs with external data; central interface for data + LLM"
+        },
+        {
+          "name": "Semantic Kernel",
+          "type": "Enterprise SDK",
+          "license": "MIT",
+          "tier": "A",
+          "notes": "Microsoft ecosystem; process framework for durable agents; Python, C#, Java; Azure AI Foundry"
+        },
+        {
+          "name": "OpenAI Agents SDK",
+          "type": "Agent Framework",
+          "license": "Proprietary",
+          "tier": "A",
+          "notes": "OpenAI ecosystem; lightweight agent building; tools, guardrails, handoffs"
+        },
+        {
+          "name": "Mastra",
+          "type": "Agent Framework",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Modern stack; TypeScript-first; workflow orchestration, memory, evals"
+        },
+        {
+          "name": "Pydantic AI",
+          "type": "Agent Framework",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Python developers; type-safe agent development; Pydantic validation; FastAPI integration"
+        },
+        {
+          "name": "DSPy",
+          "type": "Pipeline Optimization",
+          "license": "Open Source (Stanford)",
+          "tier": "A",
+          "notes": "Research/enterprise; programmatic prompt optimization; eliminates manual prompt engineering"
+        },
+        {
+          "name": "Haystack",
+          "type": "Document AI/RAG",
+          "license": "Open Source (deepset)",
+          "tier": "A",
+          "notes": "Enterprise; document processing, semantic search; deep vector DB integration; deepset Cloud"
+        },
+        {
+          "name": "ZenML",
+          "type": "MLOps Orchestration",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "ML pipelines; LangChain & LlamaIndex integrations; orchestrating, experimenting, deploying"
+        },
+        {
+          "name": "Temporal",
+          "type": "Durable Execution",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Long-running workflows; automatic retry, state persistence; production-grade for agents; Go-based"
+        },
+        {
+          "name": "Langfuse",
+          "type": "Observability",
+          "license": "Open Source (MIT)",
+          "tier": "A",
+          "notes": "11K+ stars; tracing, evals, prompt management; self-hostable; acquired by ClickHouse Jan 2026"
+        },
+        {
+          "name": "LangSmith",
+          "type": "Observability",
+          "license": "Proprietary (SaaS)",
+          "tier": "A",
+          "notes": "LangChain ecosystem; LangChain-native tracing, datasets; one-line integration; usage-based"
+        },
+        {
+          "name": "MLflow",
+          "type": "MLOps/LLMOps",
+          "license": "Open Source (Apache-2.0)",
+          "tier": "A",
+          "notes": "Linux Foundation; end-to-end GenAI lifecycle; only tool combining open-source, deep agent tracing"
+        },
+        {
+          "name": "Helicone",
+          "type": "API Monitoring",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Lightweight; request logging, cost tracking, caching; proxy-based; zero-code integration"
+        },
+        {
+          "name": "Comet Opik",
+          "type": "Observability",
+          "license": "Partially Open Source",
+          "tier": "A",
+          "notes": "Comet ecosystem; eval + tracing; built-in metrics; agent optimizer SDK; free + enterprise"
+        },
+        {
+          "name": "AgentOps",
+          "type": "Agent Monitoring",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Multi-framework; session replay, time-travel debugging; CrewAI, AutoGen, LangChain SDK"
+        },
+        {
+          "name": "TruLens",
+          "type": "Evaluation",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Free; evaluation auditing; moderate tracing; completely free"
+        },
+        {
+          "name": "Lunary",
+          "type": "Observability",
+          "license": "Open Source / SaaS",
+          "tier": "A",
+          "notes": "Chatbot/RAG teams; LLM apps monitoring, prompt management; self-hostable; EU data center"
+        },
+        {
+          "name": "LangWatch",
+          "type": "Observability",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "DSPy integration; agent testing, simulation; synthetic conversation testing; voice agent testing"
+        },
+        {
+          "name": "Literal AI",
+          "type": "Observability",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Multi-modal; LLM observability + evaluation; prompt templates, versioned deploys, human feedback"
+        },
+        {
+          "name": "Future AGI",
+          "type": "Evals + Guardrails",
+          "license": "Open Source (Apache-2.0)",
+          "tier": "B",
+          "notes": "Enterprise; 50+ eval agents, 18 guardrails; text + voice simulation; traceAI library"
+        },
+        {
+          "name": "OpenLIT",
+          "type": "Observability",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "OpenTelemetry-native; GenAI + LLM auto-instrumentation; token & cost usage; monitoring LLMs, VectorDBs"
+        },
+        {
+          "name": "Maxim AI",
+          "type": "Compliance",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Enterprise; SOC2/HIPAA-ready observability; drift detection, audit trails, auto-remediation"
+        },
+        {
+          "name": "HoneyHive",
+          "type": "Agent Monitoring",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Production agents; flexible deployment (SaaS, hybrid, self-hosted); agent lifecycle monitoring"
+        },
+        {
+          "name": "Parea AI",
+          "type": "Prompt Engineering",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "AI Engineers; LLM evaluation, observability, prompt playground; version-controlled enhanced prompt"
+        },
+        {
+          "name": "Adaline",
+          "type": "Prompt Management",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Production teams; end-to-end prompt lifecycle; versioning, testing, deployment, monitoring"
+        },
+        {
+          "name": "PromptHub",
+          "type": "Prompt Management",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Git-like workflow; versioning, branching, reviews; code-review workflow for prompts"
+        },
+        {
+          "name": "Humanloop",
+          "type": "Prompt Management",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Prompt editing; polished editing experience; narrower observability; no span-level tracing"
+        },
+        {
+          "name": "Confident AI",
+          "type": "Prompt Management",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Git-based; branching, commit, approval workflows; only platform with git-style branching"
+        },
+        {
+          "name": "Promptfoo",
+          "type": "Prompt Testing",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "CI/CD; regression tests, prompt quality; open-source tool for testing & evaluating; CLI and CI/CD"
+        },
+        {
+          "name": "PromptMage",
+          "type": "Prompt Workflows",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Self-hosted; LLM workflows and prompts; simplify creation and management of LLM workflows"
+        },
+        {
+          "name": "PromptSite",
+          "type": "Prompt Lifecycle",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Local filesystem; version control, tracking, experimentation; lightweight Python library"
+        },
+        {
+          "name": "Prompteams",
+          "type": "Prompt Management",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Real-time APIs; version, test, collaborate, retrieve; GitHub-style repos, branches, commits"
+        },
+        {
+          "name": "Prompttools",
+          "type": "Prompt Testing",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Notebook-friendly; testing and experimenting with prompts; evaluate across different models"
+        },
+        {
+          "name": "PromptDX",
+          "type": "Prompt Development",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Markdown/JSX; declarative, extensible, composable prompts; Markdown and JSX approach"
+        },
+        {
+          "name": "PromptFoundry",
+          "type": "Prompt Engineering",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Developers; simple prompt engineering and evaluation; designed for developers building AI apps"
+        },
+        {
+          "name": "Wordware",
+          "type": "Agent IDE",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Domain experts + engineers; web-hosted IDE for task-specific AI agents; prompting as programming"
+        },
+        {
+          "name": "LangKit",
+          "type": "Telemetry",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Out-of-the-box; LLM telemetry collection; extracts features and profiles prompts, responses, metadata"
+        },
+        {
+          "name": "Langflow",
+          "type": "Visual LLM Builder",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Active community; prototype LangChain flows; drag-and-drop components + chat interface"
+        },
+        {
+          "name": "RAGflow",
+          "type": "RAG Engine",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "80.7K+ stars; deep document understanding; complex PDF/table parsing; dedicated RAG backend"
+        },
+        {
+          "name": "Botpress",
+          "type": "Conversational",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Open-source dialog + LLM; modular; community extensible"
+        },
+        {
+          "name": "Rasa",
+          "type": "Conversational",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "20K+ stars; 25M+ downloads; open-source + Rasa Studio; developer edition free"
+        },
+        {
+          "name": "Voiceflow",
+          "type": "No-code",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Visual agent builder; voice + chat; enterprise teams"
+        },
+        {
+          "name": "Relevance AI",
+          "type": "No-code",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Drag-and-drop; zero coding; non-technical users"
+        },
+        {
+          "name": "Coze",
+          "type": "No-code",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "ByteDance; 100K+ bots; zero-code Bot builder; Doubao model; multi-channel publish"
+        },
+        {
+          "name": "BISHENG",
+          "type": "Enterprise Platform",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "China; 'Proudly made by Chinese'; Fortune 500 deployments; open-source alternative to Dify"
+        },
+        {
+          "name": "FastGPT",
+          "type": "RAG Platform",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "China; RAG-focused; knowledge base QA; workflow orchestration"
+        },
+        {
+          "name": "Orq.ai",
+          "type": "LLMOps Platform",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Europe; LLM app development platform; experiment, evaluate, deploy"
+        },
+        {
+          "name": "Langdock",
+          "type": "LLMOps Platform",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "Europe; enterprise LLM platform; compliance-focused; EU AI Act ready"
+        },
+        {
+          "name": "Kissflow",
+          "type": "Workflow Automation",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "India; low-code workflow; AI integration; enterprise BPM"
+        },
+        {
+          "name": "DronaHQ",
+          "type": "Low-Code Platform",
+          "license": "Proprietary",
+          "tier": "B",
+          "notes": "India; low-code app builder; AI workflow automation; enterprise"
+        }
+      ],
+      "tool_count": 64
+    },
+    "context-protocols": {
+      "name": "Context Protocols, Authentication & Integration Standards",
+      "description": "MCP, A2A, authentication standards, integration patterns, agent identity",
+      "estimated_total": 45,
+      "tools": [
+        {
+          "name": "MCP (Model Context Protocol)",
+          "type": "Protocol",
+          "license": "MIT (Open)",
+          "tier": "A",
+          "notes": "97M monthly SDK downloads; agent-to-tool communication; Anthropic → AAIF/LF; JSON-RPC over stdio/HTTP"
+        },
+        {
+          "name": "A2A (Agent-to-Agent)",
+          "type": "Protocol",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "150+ orgs in production; agent-to-agent coordination; Google → Linux Foundation; Agent Cards"
+        },
+        {
+          "name": "ACP (Agent Communication Protocol)",
+          "type": "Protocol",
+          "license": "Apache-2.0",
+          "tier": "B",
+          "notes": "~1,013 (archived); IBM → merged into A2A Aug 2025; REST-native; archived"
+        },
+        {
+          "name": "ANP (Agent Network Protocol)",
+          "type": "Protocol",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Decentralized agent collaboration; P2P, DID-based identity, JSON-LD; open internet focus"
+        },
+        {
+          "name": "UCP (Universal Commerce Protocol)",
+          "type": "Protocol",
+          "license": "Apache-2.0",
+          "tier": "A",
+          "notes": "20+ retail partners; Google + Shopify; agent-driven commerce; MCP/A2A compatible"
+        },
+        {
+          "name": "x402",
+          "type": "Protocol",
+          "license": "Open",
+          "tier": "A",
+          "notes": "150M+ transactions; Coinbase → Linux Foundation; HTTP 402 stablecoin payments; 10+ chains"
+        },
+        {
+          "name": "AP2 (Agent Payments Protocol)",
+          "type": "Protocol",
+          "license": "Open",
+          "tier": "B",
+          "notes": "Google ecosystem; payment authorization; cryptographically signed mandates; integrates with UCP"
+        },
+        {
+          "name": "MPP (Stripe)",
+          "type": "Protocol",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Early 2026 launch; Stripe + Tempo; session-based micropayments; fiat + stablecoin"
+        },
+        {
+          "name": "AGEX",
+          "type": "Protocol",
+          "license": "Research",
+          "tier": "C",
+          "notes": "Academic; agent credential lifecycle; complete protocol spec with AIDs, Delegation Chains, ARP"
+        },
+        {
+          "name": "OAN",
+          "type": "Protocol",
+          "license": "Research",
+          "tier": "C",
+          "notes": "Academic; trust-governed agent identity; layered stack: Identity, Discovery, Invocation, Governance"
+        },
+        {
+          "name": "NANDA",
+          "type": "Protocol",
+          "license": "Open",
+          "tier": "C",
+          "notes": "Community; DNS for AI agents; decentralized agent registry; AgentAddr + AgentFacts; ZTAA framework"
+        },
+        {
+          "name": "Agora Protocol",
+          "type": "Protocol",
+          "license": "Research",
+          "tier": "C",
+          "notes": "Academic; IoA scalable communication; structured routines + natural language interfaces"
+        },
+        {
+          "name": "AConP (Cisco)",
+          "type": "Protocol",
+          "license": "Draft",
+          "tier": "C",
+          "notes": "Drafting; LAN agent invocation; OpenAPI/JSON-based; standard interface for local agents"
+        },
+        {
+          "name": "WIMSE (IETF)",
+          "type": "Standard",
+          "license": "IETF Draft",
+          "tier": "A",
+          "notes": "Active WG; workload identity; SPIFFE successor; architecture + token formats; RFC expected 2027-2028"
+        },
+        {
+          "name": "AIMS (IETF)",
+          "type": "Standard",
+          "license": "IETF Draft",
+          "tier": "A",
+          "notes": "Q1 2026; AI agent auth/authz; draft-klrc-aiagent-auth-01; `agent_assertion` grant type"
+        },
+        {
+          "name": "SCIM for Agents",
+          "type": "Standard",
+          "license": "IETF Draft",
+          "tier": "A",
+          "notes": "Q1 2026; agent lifecycle mgmt; draft-abbey-scim-agent-extension; Agents + AgenticApplications resources"
+        },
+        {
+          "name": "Authed",
+          "type": "Auth Protocol",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Early access; agent-to-agent auth; unique agent IDs, dynamic tokens, registry; no static credentials"
+        },
+        {
+          "name": "Agent Name Service (ANS)",
+          "type": "Discovery",
+          "license": "Proposal",
+          "tier": "C",
+          "notes": "Research; agent identity resolution; PKI-backed directory; maps agent IDs to capabilities/keys/endpoints"
+        },
+        {
+          "name": "Vercel AI SDK",
+          "type": "SDK",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "Widely adopted; multi-provider AI apps; TypeScript; 20+ providers; React/Next.js hooks; streaming-first"
+        },
+        {
+          "name": "OpenAI Agents SDK",
+          "type": "SDK",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "10M+ npm/week; OpenAI-native agents; Python/TypeScript; MCP support; handoffs, guardrails, tracing"
+        },
+        {
+          "name": "Anthropic SDK",
+          "type": "SDK",
+          "license": "Open Source",
+          "tier": "A",
+          "notes": "High; Claude-native apps; extended thinking, prompt caching, computer use tools"
+        },
+        {
+          "name": "Smithery",
+          "type": "Registry",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "3,305+ servers; MCP server hosting; free remote hosting; CLI + SDK; verified servers; security breach 2025"
+        },
+        {
+          "name": "Glama",
+          "type": "Registry",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "22,000+ servers; MCP discovery + hosting; Firecracker VM isolation; AI chat interface; 3 free servers"
+        },
+        {
+          "name": "mcp.so",
+          "type": "Registry",
+          "license": "Free",
+          "tier": "B",
+          "notes": "17,186+ servers; MCP directory; largest catalog; multi-language; playground; no hosting"
+        },
+        {
+          "name": "PulseMCP",
+          "type": "Registry",
+          "license": "Free",
+          "tier": "B",
+          "notes": "6,970+ servers; MCP news/registry; weekly newsletter; REST API; official registry connection"
+        },
+        {
+          "name": "MCPize",
+          "type": "Platform",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "500+ servers; MCP monetization; 80% revenue share; OpenAPI→MCP; affiliate program"
+        },
+        {
+          "name": "Portkey",
+          "type": "AI Gateway",
+          "license": "Commercial + OSS",
+          "tier": "A",
+          "notes": "Production; AI observability + routing; 250+ models; MCP Gateway (GA Jan 2026); open source March 2026"
+        },
+        {
+          "name": "TrueFoundry",
+          "type": "AI Gateway",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Enterprise; model management at scale; multi-cloud; RBAC, OAuth 2.0, guardrails; 30% cost efficiency"
+        },
+        {
+          "name": "ZenMux",
+          "type": "AI Gateway",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Enterprise; multi-LLM access; unified API; intelligent routing; LLM Insurance"
+        },
+        {
+          "name": "Google Apigee",
+          "type": "AI Gateway",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "GCP-native; zero-code MCP generation; Model Armor; Vertex AI integration; $2,500+/mo"
+        },
+        {
+          "name": "Gravitee",
+          "type": "AI Gateway",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Enterprise; unified API/AI governance; Agent Gateway, Agentic IAM, Agent Tool Server, Catalog"
+        },
+        {
+          "name": "Cloudflare MCP Gateway",
+          "type": "Gateway",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Widely used; MCP reverse proxy; centralized auth, logging, rate-limiting; canonical example"
+        },
+        {
+          "name": "HashiCorp Vault",
+          "type": "Secrets Mgmt",
+          "license": "Open + Enterprise",
+          "tier": "A",
+          "notes": "Enterprise standard; secret rotation; dynamic secrets, multi-auth, transit encryption"
+        },
+        {
+          "name": "AWS Secrets Manager",
+          "type": "Secrets Mgmt",
+          "license": "Commercial",
+          "tier": "A",
+          "notes": "AWS-native; secret rotation; automated rotation via Lambda; KMS encryption; costly at scale"
+        },
+        {
+          "name": "API Stronghold",
+          "type": "API Key Mgmt",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Growing; scoped credentials; zero-knowledge; AES-256; automated rotation; team access control"
+        },
+        {
+          "name": "Stytch",
+          "type": "Auth Platform",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Production; agent auth; Connected Apps; MCP auth server; consent + token management"
+        },
+        {
+          "name": "Scalekit",
+          "type": "Auth Platform",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Production; B2B agent auth; OAuth for AI agents; OBO tokens; delegated auth; audit trails"
+        },
+        {
+          "name": "Aembit",
+          "type": "Auth Platform",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Enterprise; MCP authorization; OAuth 2.1, PRMs, workload identity; agent access platform"
+        },
+        {
+          "name": "Knostic",
+          "type": "Security",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Research; MCP security scan; found 100% of 2,000 MCP servers lacked authentication"
+        },
+        {
+          "name": "DataDome",
+          "type": "Security",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Production; MCP protection; real-time intent analysis; tool poisoning detection"
+        },
+        {
+          "name": "Invariant Labs",
+          "type": "Security",
+          "license": "Research",
+          "tier": "B",
+          "notes": "Academic; MCP threat research; demonstrated tool poisoning attacks April 2025"
+        },
+        {
+          "name": "Trulioo KYA",
+          "type": "Trust",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Production; agent verification; Digital Agent Passports; Know Your Agent"
+        },
+        {
+          "name": "Visa TAP",
+          "type": "Trust",
+          "license": "Commercial",
+          "tier": "B",
+          "notes": "Early; trusted agents; Trusted Agent Protocol; payment-network level trust"
+        },
+        {
+          "name": "ERC-8004 (Trustless Agents)",
+          "type": "On-chain",
+          "license": "Open",
+          "tier": "C",
+          "notes": "Mainnet Jan 2026; identity + reputation; on-chain registries for identity, reputation, capability validation"
+        },
+        {
+          "name": "OpenClaw",
+          "type": "Agent Platform",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "Community; skill marketplace; 1,184 malicious skills found in ClawHub"
+        },
+        {
+          "name": "BeeAI (IBM)",
+          "type": "Agent Platform",
+          "license": "Open Source",
+          "tier": "B",
+          "notes": "1,013 stars (ACP); multi-agent runtime; formerly ACP-powered; now A2A-based"
+        }
+      ],
+      "tool_count": 46
+    }
+  }
+}
