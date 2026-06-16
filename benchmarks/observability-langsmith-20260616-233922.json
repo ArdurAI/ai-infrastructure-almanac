@@ -1,0 +1,42 @@
+{
+  "tool_name": "LangSmith",
+  "category": "observability",
+  "run_id": "observability-langsmith-20260616-233922",
+  "timestamp": "2026-06-16T23:39:22.742927+00:00",
+  "overall_passed": true,
+  "turns": [
+    {
+      "turn": "setup",
+      "passed": true,
+      "duration_seconds": 0.001,
+      "error": null,
+      "metrics": {
+        "setup_method": "api_key_or_cloud"
+      }
+    },
+    {
+      "turn": "work",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {
+        "result_keys": [
+          "spans_ingested",
+          "latency_ms",
+          "simulated",
+          "tool"
+        ],
+        "result_type": "dict"
+      }
+    },
+    {
+      "turn": "teardown",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {}
+    }
+  ],
+  "summary": "Smoke gate PASSED for LangSmith. Setup: 0.001s, Work: 0.0s, Teardown: 0.0s.",
+  "raw_data_path": "observability-langsmith-20260616-233922.json"
+}

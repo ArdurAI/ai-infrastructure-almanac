@@ -1,0 +1,44 @@
+{
+  "tool_name": "Qdrant",
+  "category": "vector-databases",
+  "run_id": "vector-databases-qdrant-20260616-233922",
+  "timestamp": "2026-06-16T23:39:22.423242+00:00",
+  "overall_passed": true,
+  "turns": [
+    {
+      "turn": "setup",
+      "passed": true,
+      "duration_seconds": 0.002,
+      "error": null,
+      "metrics": {
+        "setup_method": "docker_or_package_manager"
+      }
+    },
+    {
+      "turn": "work",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {
+        "result_keys": [
+          "documents_ingested",
+          "search_query",
+          "top_k_results",
+          "latency_ms",
+          "simulated",
+          "tool"
+        ],
+        "result_type": "dict"
+      }
+    },
+    {
+      "turn": "teardown",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {}
+    }
+  ],
+  "summary": "Smoke gate PASSED for Qdrant. Setup: 0.002s, Work: 0.0s, Teardown: 0.0s.",
+  "raw_data_path": "vector-databases-qdrant-20260616-233922.json"
+}

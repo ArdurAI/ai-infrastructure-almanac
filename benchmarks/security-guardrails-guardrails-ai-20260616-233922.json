@@ -1,0 +1,43 @@
+{
+  "tool_name": "Guardrails AI",
+  "category": "security-guardrails",
+  "run_id": "security-guardrails-guardrails-ai-20260616-233922",
+  "timestamp": "2026-06-16T23:39:22.843983+00:00",
+  "overall_passed": true,
+  "turns": [
+    {
+      "turn": "setup",
+      "passed": true,
+      "duration_seconds": 0.001,
+      "error": null,
+      "metrics": {
+        "setup_method": "pip_install"
+      }
+    },
+    {
+      "turn": "work",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {
+        "result_keys": [
+          "prompts_checked",
+          "violations_detected",
+          "latency_ms",
+          "simulated",
+          "tool"
+        ],
+        "result_type": "dict"
+      }
+    },
+    {
+      "turn": "teardown",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {}
+    }
+  ],
+  "summary": "Smoke gate PASSED for Guardrails AI. Setup: 0.001s, Work: 0.0s, Teardown: 0.0s.",
+  "raw_data_path": "security-guardrails-guardrails-ai-20260616-233922.json"
+}

@@ -1,0 +1,45 @@
+{
+  "tool_name": "vLLM",
+  "category": "model-serving",
+  "run_id": "model-serving-vllm-20260616-233922",
+  "timestamp": "2026-06-16T23:39:22.522797+00:00",
+  "overall_passed": true,
+  "turns": [
+    {
+      "turn": "setup",
+      "passed": true,
+      "duration_seconds": 0.003,
+      "error": null,
+      "metrics": {
+        "setup_method": "docker_or_package_manager"
+      }
+    },
+    {
+      "turn": "work",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {
+        "result_keys": [
+          "prompt_length",
+          "response",
+          "tokens_generated",
+          "ttft_ms",
+          "tps",
+          "simulated",
+          "tool"
+        ],
+        "result_type": "dict"
+      }
+    },
+    {
+      "turn": "teardown",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {}
+    }
+  ],
+  "summary": "Smoke gate PASSED for vLLM. Setup: 0.003s, Work: 0.0s, Teardown: 0.0s.",
+  "raw_data_path": "model-serving-vllm-20260616-233922.json"
+}

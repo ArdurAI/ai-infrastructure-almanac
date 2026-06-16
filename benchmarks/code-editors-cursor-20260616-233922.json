@@ -1,0 +1,43 @@
+{
+  "tool_name": "Cursor",
+  "category": "code-editors",
+  "run_id": "code-editors-cursor-20260616-233922",
+  "timestamp": "2026-06-16T23:39:22.322524+00:00",
+  "overall_passed": true,
+  "turns": [
+    {
+      "turn": "setup",
+      "passed": true,
+      "duration_seconds": 0.001,
+      "error": null,
+      "metrics": {
+        "setup_method": "installer_or_web_signup"
+      }
+    },
+    {
+      "turn": "work",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {
+        "result_keys": [
+          "input_length",
+          "output_length",
+          "file_modified",
+          "simulated",
+          "tool"
+        ],
+        "result_type": "dict"
+      }
+    },
+    {
+      "turn": "teardown",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {}
+    }
+  ],
+  "summary": "Smoke gate PASSED for Cursor. Setup: 0.001s, Work: 0.0s, Teardown: 0.0s.",
+  "raw_data_path": "code-editors-cursor-20260616-233922.json"
+}

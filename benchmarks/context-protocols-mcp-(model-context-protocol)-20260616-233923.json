@@ -1,0 +1,42 @@
+{
+  "tool_name": "MCP (Model Context Protocol)",
+  "category": "context-protocols",
+  "run_id": "context-protocols-mcp-(model-context-protocol)-20260616-233923",
+  "timestamp": "2026-06-16T23:39:23.058618+00:00",
+  "overall_passed": true,
+  "turns": [
+    {
+      "turn": "setup",
+      "passed": true,
+      "duration_seconds": 0.001,
+      "error": null,
+      "metrics": {
+        "setup_method": "api_or_cloud_signup"
+      }
+    },
+    {
+      "turn": "work",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {
+        "result_keys": [
+          "handshake_success",
+          "messages_exchanged",
+          "simulated",
+          "tool"
+        ],
+        "result_type": "dict"
+      }
+    },
+    {
+      "turn": "teardown",
+      "passed": true,
+      "duration_seconds": 0.0,
+      "error": null,
+      "metrics": {}
+    }
+  ],
+  "summary": "Smoke gate PASSED for MCP (Model Context Protocol). Setup: 0.001s, Work: 0.0s, Teardown: 0.0s.",
+  "raw_data_path": "context-protocols-mcp-(model-context-protocol)-20260616-233923.json"
+}
