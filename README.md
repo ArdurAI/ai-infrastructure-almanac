@@ -6,19 +6,19 @@ A living encyclopedia of the tools, platforms, and standards that make AI/LLM sy
 
 ## Scope
 
-This almanac covers the full AI infrastructure stack — everything that sits between the foundation model and the end user:
+This almanac covers the full AI infrastructure stack — everything that sits between the foundation model and the end user. Each category also has its **standalone almanac** with deep-dive benchmarks, per-tool pages, and category-specific editions:
 
-| Category | What it covers |
-|----------|---------------|
-| **Code Editors** | AI-native IDEs, IDE assistants, terminal coding agents, code review tools |
-| **Agent Frameworks** | Multi-agent orchestration, stateful workflows, role-based crews, protocol implementations |
-| **Observability** | LLM tracing, agent monitoring, cost tracking, GPU monitoring, evaluation platforms |
-| **Vector Databases** | Vector stores, ANN libraries, RAG frameworks, document parsers, rerankers |
-| **Model Serving** | Inference engines, deployment platforms, API gateways, edge/on-device inference |
-| **Security & Guardrails** | Input/output validation, prompt injection defense, PII protection, AI governance |
-| **LLMOps Platforms** | Workflow builders, prompt management, no-code/low-code AI platforms, CI/CD for AI |
-| **Context & Protocols** | MCP, A2A, authentication standards, integration patterns, agent identity |
-| **Memory** | *(Tracked separately at [agent-memory-almanac](https://github.com/ArdurAI/agent-memory-almanac))* |
+| Category | What it covers | Standalone Almanac |
+|----------|---------------|---------------------|
+| **Code Editors** | AI-native IDEs, IDE assistants, terminal coding agents | [ai-code-editor-almanac](https://github.com/ArdurAI/ai-code-editor-almanac) |
+| **Agent Frameworks** | Multi-agent orchestration, stateful workflows, role-based crews | [ai-agent-framework-almanac](https://github.com/ArdurAI/ai-agent-framework-almanac) |
+| **Observability** | LLM tracing, agent monitoring, cost tracking, GPU monitoring | [ai-observability-almanac](https://github.com/ArdurAI/ai-observability-almanac) |
+| **Vector Databases** | Vector stores, ANN libraries, RAG frameworks, document parsers | [ai-vector-database-almanac](https://github.com/ArdurAI/ai-vector-database-almanac) |
+| **Model Serving** | Inference engines, deployment platforms, API gateways | [ai-model-serving-almanac](https://github.com/ArdurAI/ai-model-serving-almanac) |
+| **Security & Guardrails** | Input/output validation, prompt injection defense, PII protection | [ai-security-almanac](https://github.com/ArdurAI/ai-security-almanac) |
+| **LLMOps Platforms** | Workflow builders, prompt management, no-code/low-code AI platforms | [ai-llmops-almanac](https://github.com/ArdurAI/ai-llmops-almanac) |
+| **Context & Protocols** | MCP, A2A, authentication standards, integration patterns | [ai-protocol-almanac](https://github.com/ArdurAI/ai-protocol-almanac) |
+| **Memory** | Agent memory systems | [agent-memory-almanac](https://github.com/ArdurAI/agent-memory-almanac) |
 
 ## How to use this repo
 
